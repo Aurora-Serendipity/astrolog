@@ -1,0 +1,26 @@
+sequenceDiagram
+    participant User as 用户
+    participant Main as 主模块
+    participant VehicleManager as 车辆管理模块
+    participant RentalCalculator as 计算模块
+    participant DiscountStrategyFactory as 折扣策略工厂
+    participant DiscountStrategy as 折扣策略
+    
+    User->>Main: 选择租车流程
+    Main->>VehicleManager: 获取可租赁车辆
+    VehicleManager-->>Main: 返回车辆列表
+    Main-->>User: 显示车辆列表
+    User->>Main: 选择车辆
+    Main->>VehicleManager: 根据ID获取车辆
+    VehicleManager-->>Main: 返回车辆信息
+    Main-->>User: 显示已选择车辆
+    User->>Main: 输入租赁天数
+    Main->>RentalCalculator: 计算租赁费用
+    RentalCalculator->>DiscountStrategyFactory: 获取折扣策略
+    DiscountStrategyFactory->>DiscountStrategy: 创建对应策略
+    DiscountStrategy-->>DiscountStrategyFactory: 返回策略实例
+    DiscountStrategyFactory-->>RentalCalculator: 返回折扣策略
+    RentalCalculator->>DiscountStrategy: 计算折扣率
+    DiscountStrategy-->>RentalCalculator: 返回折扣率
+    RentalCalculator-->>Main: 返回计算结果
+    Main-->>User: 显示费用详情

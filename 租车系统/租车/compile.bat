@@ -1,0 +1,37 @@
+@echo off
+echo 开始编译租车系统...
+javac -encoding UTF-8 -cp "lib/*" -d bin ^
+src\com\rental\model\Vehicle.java ^
+src\com\rental\model\RentalRecord.java ^
+src\com\rental\protocol\MessageType.java ^
+src\com\rental\protocol\Message.java ^
+src\com\rental\protocol\ApiResponse.java ^
+src\com\rental\repository\JsonFileStorage.java ^
+src\com\rental\repository\DBConnectionManager.java ^
+src\com\rental\repository\DatabaseInitializer.java ^
+src\com\rental\repository\VehicleRepository.java ^
+src\com\rental\repository\RentalRepository.java ^
+src\com\rental\repository\DataMigration.java ^
+src\com\rental\strategy\DiscountStrategy.java ^
+src\com\rental\strategy\DefaultDiscountStrategy.java ^
+src\com\rental\strategy\CarDiscountStrategy.java ^
+src\com\rental\strategy\BusDiscountStrategy.java ^
+src\com\rental\strategy\TruckDiscountStrategy.java ^
+src\com\rental\strategy\DiscountStrategyFactory.java ^
+src\com\rental\service\RentalCalculator.java ^
+src\com\rental\service\VehicleManager.java ^
+src\com\rental\service\VehicleService.java ^
+src\com\rental\service\RentalService.java ^
+src\com\rental\server\ThreadPoolManager.java ^
+src\com\rental\server\ClientHandler.java ^
+src\com\rental\server\ServerApp.java ^
+src\com\rental\client\SocketClient.java ^
+src\com\rental\client\ui\ClientMainFrame.java ^
+src\com\rental\client\ui\ClientUI.java ^
+src\com\rental\ui\swing\utils\TableModel.java ^
+src\com\rental\ui\swing\FeeDetailDialog.java ^
+src\com\rental\ui\swing\RentalDialog.java ^
+src\com\rental\ui\swing\MainFrame.java ^
+src\com\rental\ui\swing\SwingUI.java ^
+src\com\rental\ui\Main.java
+echo 编译完成！

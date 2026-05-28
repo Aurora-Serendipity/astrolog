@@ -1,0 +1,2376 @@
+[
+  {
+    "name": "仙女座",
+    "abbreviation": "And",
+    "area": 722,
+    "brightestStar": "壁宿二",
+    "season": "秋",
+    "mythology": "希腊神话：安德洛墨达公主被锁在海边礁石上献祭海怪，被珀尔修斯解救后化为星座。中国星官：对应奎宿、壁宿等，属西方白虎七宿。",
+    "lines": [
+      {
+        "fromRA": 0.1333,
+        "fromDec": 29.0833,
+        "toRA": 1.1667,
+        "toDec": 35.6167
+      },
+      {
+        "fromRA": 1.1667,
+        "fromDec": 35.6167,
+        "toRA": 2.0667,
+        "toDec": 42.3333
+      },
+      {
+        "fromRA": 0.1333,
+        "fromDec": 29.0833,
+        "toRA": 23.0833,
+        "toDec": 15.2
+      }
+    ]
+  },
+  {
+    "name": "唧筒座",
+    "abbreviation": "Ant",
+    "area": 239,
+    "brightestStar": "唧筒座α",
+    "season": "春",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表真空泵。中国星官：位于朱雀之南，古代中国未单独划分此星座。",
+    "lines": [
+      {
+        "fromRA": 10.5,
+        "fromDec": -35.0,
+        "toRA": 9.8333,
+        "toDec": -37.0
+      },
+      {
+        "fromRA": 9.8333,
+        "fromDec": -37.0,
+        "toRA": 10.1667,
+        "toDec": -33.0
+      }
+    ]
+  },
+  {
+    "name": "天燕座",
+    "abbreviation": "Aps",
+    "area": 206,
+    "brightestStar": "天燕座α",
+    "season": "夏",
+    "mythology": "希腊神话：16世纪航海家命名，代表极乐鸟。中国星官：位于南天极附近，中国古代未见此星座。",
+    "lines": [
+      {
+        "fromRA": 16.0,
+        "fromDec": -78.0,
+        "toRA": 16.6667,
+        "toDec": -76.0
+      },
+      {
+        "fromRA": 16.6667,
+        "fromDec": -76.0,
+        "toRA": 15.3333,
+        "toDec": -75.0
+      }
+    ]
+  },
+  {
+    "name": "宝瓶座",
+    "abbreviation": "Aqr",
+    "area": 980,
+    "brightestStar": "虚宿一",
+    "season": "秋",
+    "mythology": "希腊神话：美少年伽倪墨得斯被宙斯化为鹰掳走，成为众神的侍酒者。中国星官：对应女宿、虚宿、危宿等，属北方玄武七宿。",
+    "lines": [
+      {
+        "fromRA": 20.8,
+        "fromDec": -0.0833,
+        "toRA": 22.1,
+        "toDec": 0.3333
+      },
+      {
+        "fromRA": 22.1,
+        "fromDec": 0.3333,
+        "toRA": 22.4833,
+        "toDec": -10.55
+      },
+      {
+        "fromRA": 22.4833,
+        "fromDec": -10.55,
+        "toRA": 23.2667,
+        "toDec": -7.6
+      }
+    ]
+  },
+  {
+    "name": "天鹰座",
+    "abbreviation": "Aql",
+    "area": 652,
+    "brightestStar": "河鼓二",
+    "season": "夏",
+    "mythology": "希腊神话：宙斯之鹰，曾掳走伽倪墨得斯。中国星官：牛郎星（河鼓二）即在此星座，对应牛宿、河鼓等星官，七夕传说中牛郎星所在。",
+    "lines": [
+      {
+        "fromRA": 19.85,
+        "fromDec": 8.8667,
+        "toRA": 19.9167,
+        "toDec": 6.4
+      },
+      {
+        "fromRA": 19.85,
+        "fromDec": 8.8667,
+        "toRA": 19.7667,
+        "toDec": 10.6167
+      },
+      {
+        "fromRA": 19.9167,
+        "fromDec": 6.4,
+        "toRA": 19.6833,
+        "toDec": 3.1167
+      }
+    ]
+  },
+  {
+    "name": "天坛座",
+    "abbreviation": "Ara",
+    "area": 237,
+    "brightestStar": "天坛座β",
+    "season": "夏",
+    "mythology": "希腊神话：众神在此宣誓的祭坛。中国星官：对应杵、龟等星官，位于南天。",
+    "lines": [
+      {
+        "fromRA": 17.4167,
+        "fromDec": -55.0,
+        "toRA": 17.0,
+        "toDec": -49.0
+      },
+      {
+        "fromRA": 17.4167,
+        "fromDec": -55.0,
+        "toRA": 17.75,
+        "toDec": -57.0
+      }
+    ]
+  },
+  {
+    "name": "白羊座",
+    "abbreviation": "Ari",
+    "area": 441,
+    "brightestStar": "娄宿三",
+    "season": "秋",
+    "mythology": "希腊神话：金毛公羊载佛里克索斯逃往科尔基斯，金羊毛后成为阿尔戈英雄寻找的目标。中国星官：对应娄宿，属西方白虎七宿，主管牧养牺牲。",
+    "lines": [
+      {
+        "fromRA": 2.1167,
+        "fromDec": 23.4667,
+        "toRA": 2.8333,
+        "toDec": 21.0
+      },
+      {
+        "fromRA": 2.8333,
+        "fromDec": 21.0,
+        "toRA": 3.1667,
+        "toDec": 19.3333
+      }
+    ]
+  },
+  {
+    "name": "御夫座",
+    "abbreviation": "Aur",
+    "area": 657,
+    "brightestStar": "五车二",
+    "season": "冬",
+    "mythology": "希腊神话：雅典王厄瑞克透斯发明四马战车。中国星官：五车即在此星座，代表五帝的车驾，五车二为北天亮星。",
+    "lines": [
+      {
+        "fromRA": 5.2833,
+        "fromDec": 46.0,
+        "toRA": 5.9833,
+        "toDec": 44.95
+      },
+      {
+        "fromRA": 5.9833,
+        "fromDec": 44.95,
+        "toRA": 5.0333,
+        "toDec": 41.0833
+      },
+      {
+        "fromRA": 5.2833,
+        "fromDec": 46.0,
+        "toRA": 5.0333,
+        "toDec": 41.0833
+      },
+      {
+        "fromRA": 5.9833,
+        "fromDec": 44.95,
+        "toRA": 6.4,
+        "toDec": 38.5333
+      }
+    ]
+  },
+  {
+    "name": "牧夫座",
+    "abbreviation": "Boo",
+    "area": 907,
+    "brightestStar": "大角星",
+    "season": "春",
+    "mythology": "希腊神话：赶着北斗的牧人。中国星官：大角星在东方被视为苍龙之角，属角宿，是二十八宿之首，象征春天和东方方位。",
+    "lines": [
+      {
+        "fromRA": 14.2667,
+        "fromDec": 19.1833,
+        "toRA": 13.9167,
+        "toDec": 18.4
+      },
+      {
+        "fromRA": 13.9167,
+        "fromDec": 18.4,
+        "toRA": 13.4167,
+        "toDec": 16.7167
+      },
+      {
+        "fromRA": 14.2667,
+        "fromDec": 19.1833,
+        "toRA": 14.55,
+        "toDec": 38.3
+      },
+      {
+        "fromRA": 13.9167,
+        "fromDec": 18.4,
+        "toRA": 14.0833,
+        "toDec": 28.2167
+      }
+    ]
+  },
+  {
+    "name": "雕具座",
+    "abbreviation": "Cae",
+    "area": 125,
+    "brightestStar": "雕具座α",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表雕刻师的凿子。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 4.7,
+        "fromDec": -37.0,
+        "toRA": 4.8333,
+        "toDec": -34.0
+      },
+      {
+        "fromRA": 4.7,
+        "fromDec": -37.0,
+        "toRA": 4.5,
+        "toDec": -40.0
+      }
+    ]
+  },
+  {
+    "name": "鹿豹座",
+    "abbreviation": "Cam",
+    "area": 757,
+    "brightestStar": "鹿豹座β",
+    "season": "冬",
+    "mythology": "希腊神话：17世纪普兰修斯命名，代表圣经中骆驼（后误译为长颈鹿）。中国星官：位于紫微垣附近，对应上丞、上卫等星官。",
+    "lines": [
+      {
+        "fromRA": 4.9,
+        "fromDec": 66.3333,
+        "toRA": 5.3667,
+        "toDec": 63.0
+      },
+      {
+        "fromRA": 5.3667,
+        "fromDec": 63.0,
+        "toRA": 4.4333,
+        "toDec": 62.8333
+      },
+      {
+        "fromRA": 5.3667,
+        "fromDec": 63.0,
+        "toRA": 6.1667,
+        "toDec": 60.5
+      }
+    ]
+  },
+  {
+    "name": "巨蟹座",
+    "abbreviation": "Cnc",
+    "area": 506,
+    "brightestStar": "巨蟹座β",
+    "season": "春",
+    "mythology": "希腊神话：赫拉派去骚扰赫拉克勒斯的大螃蟹，后被踩死升天。中国星官：对应鬼宿，属南方朱雀七宿，鬼宿星团（M44蜂巢星团）古称积尸气。",
+    "lines": [
+      {
+        "fromRA": 8.2833,
+        "fromDec": 11.85,
+        "toRA": 8.7333,
+        "toDec": 18.15
+      },
+      {
+        "fromRA": 8.7333,
+        "fromDec": 18.15,
+        "toRA": 8.9833,
+        "toDec": 20.5
+      },
+      {
+        "fromRA": 8.2833,
+        "fromDec": 11.85,
+        "toRA": 8.0,
+        "toDec": 19.0
+      }
+    ]
+  },
+  {
+    "name": "猎犬座",
+    "abbreviation": "CVn",
+    "area": 465,
+    "brightestStar": "常陈一",
+    "season": "春",
+    "mythology": "希腊神话：牧夫座的猎犬。中国星官：对应常陈星官，代表天子的近卫军。",
+    "lines": [
+      {
+        "fromRA": 12.9333,
+        "fromDec": 38.3167,
+        "toRA": 13.05,
+        "toDec": 41.25
+      },
+      {
+        "fromRA": 13.05,
+        "fromDec": 41.25,
+        "toRA": 12.5667,
+        "toDec": 42.0
+      }
+    ]
+  },
+  {
+    "name": "大犬座",
+    "abbreviation": "CMa",
+    "area": 380,
+    "brightestStar": "天狼星",
+    "season": "冬",
+    "mythology": "希腊神话：猎户座的猎犬。中国星官：天狼星即在此星座，属井宿，弧矢星官对应弓箭对准天狼以防盗贼，苏轼'西北望，射天狼'即出自此典故。",
+    "lines": [
+      {
+        "fromRA": 6.75,
+        "fromDec": -16.7167,
+        "toRA": 6.3833,
+        "toDec": -17.95
+      },
+      {
+        "fromRA": 6.75,
+        "fromDec": -16.7167,
+        "toRA": 6.9833,
+        "toDec": -28.9667
+      },
+      {
+        "fromRA": 6.75,
+        "fromDec": -16.7167,
+        "toRA": 7.1333,
+        "toDec": -26.4
+      }
+    ]
+  },
+  {
+    "name": "小犬座",
+    "abbreviation": "CMi",
+    "area": 183,
+    "brightestStar": "南河三",
+    "season": "冬",
+    "mythology": "希腊神话：猎户座的小猎犬。中国星官：南河三在此星座，对应南河星官，属井宿。",
+    "lines": [
+      {
+        "fromRA": 7.65,
+        "fromDec": 5.2333,
+        "toRA": 7.4667,
+        "toDec": 8.2833
+      }
+    ]
+  },
+  {
+    "name": "摩羯座",
+    "abbreviation": "Cap",
+    "area": 414,
+    "brightestStar": "垒壁阵四",
+    "season": "秋",
+    "mythology": "希腊神话：潘神为躲避怪物泰丰跳入河中，下半身变为鱼尾。中国星官：对应牛宿、斗宿部分，属北方玄武七宿。",
+    "lines": [
+      {
+        "fromRA": 20.3,
+        "fromDec": -12.55,
+        "toRA": 20.3333,
+        "toDec": -14.7833
+      },
+      {
+        "fromRA": 20.3333,
+        "fromDec": -14.7833,
+        "toRA": 21.6667,
+        "toDec": -16.1333
+      },
+      {
+        "fromRA": 20.3,
+        "fromDec": -12.55,
+        "toRA": 21.0667,
+        "toDec": -17.0
+      }
+    ]
+  },
+  {
+    "name": "船底座",
+    "abbreviation": "Car",
+    "area": 494,
+    "brightestStar": "老人星",
+    "season": "冬",
+    "mythology": "希腊神话：阿尔戈号船的龙骨。中国星官：老人星即在此星座，是南部天空最亮星，寿星象征，'南极老人'即指此星。",
+    "lines": [
+      {
+        "fromRA": 9.2833,
+        "fromDec": -59.0,
+        "toRA": 9.2167,
+        "toDec": -69.7167
+      },
+      {
+        "fromRA": 9.2167,
+        "fromDec": -69.7167,
+        "toRA": 8.3667,
+        "toDec": -59.5
+      },
+      {
+        "fromRA": 9.2833,
+        "fromDec": -59.0,
+        "toRA": 10.7167,
+        "toDec": -57.0
+      },
+      {
+        "fromRA": 8.3667,
+        "fromDec": -59.5,
+        "toRA": 6.4,
+        "toDec": -52.7
+      }
+    ]
+  },
+  {
+    "name": "仙后座",
+    "abbreviation": "Cas",
+    "area": 598,
+    "brightestStar": "王良四",
+    "season": "秋",
+    "mythology": "希腊神话：埃塞俄比亚王后卡西奥佩娅，因夸耀女儿美貌被罚绕天极旋转。中国星官：对应王良、策、阁道等星官，王良是古代驾车能手。",
+    "lines": [
+      {
+        "fromRA": 0.6667,
+        "fromDec": 56.5333,
+        "toRA": 0.15,
+        "toDec": 59.15
+      },
+      {
+        "fromRA": 0.15,
+        "fromDec": 59.15,
+        "toRA": 0.95,
+        "toDec": 60.7167
+      },
+      {
+        "fromRA": 0.95,
+        "fromDec": 60.7167,
+        "toRA": 1.4333,
+        "toDec": 60.2333
+      },
+      {
+        "fromRA": 1.4333,
+        "fromDec": 60.2333,
+        "toRA": 1.9,
+        "toDec": 63.6667
+      }
+    ]
+  },
+  {
+    "name": "半人马座",
+    "abbreviation": "Cen",
+    "area": 1060,
+    "brightestStar": "南门二",
+    "season": "春",
+    "mythology": "希腊神话：人首马身的贤者喀戎。中国星官：南门二（比邻星）在此星座，对应南门、马腹等星官，是南天重要导航星。",
+    "lines": [
+      {
+        "fromRA": 14.0667,
+        "fromDec": -60.3667,
+        "toRA": 13.9333,
+        "toDec": -57.0
+      },
+      {
+        "fromRA": 13.9333,
+        "fromDec": -57.0,
+        "toRA": 14.6667,
+        "toDec": -60.8333
+      },
+      {
+        "fromRA": 14.0667,
+        "fromDec": -60.3667,
+        "toRA": 14.6,
+        "toDec": -54.5
+      }
+    ]
+  },
+  {
+    "name": "仙王座",
+    "abbreviation": "Cep",
+    "area": 588,
+    "brightestStar": "天钩五",
+    "season": "秋",
+    "mythology": "希腊神话：埃塞俄比亚国王刻甫斯，安德洛墨达的父亲。中国星官：对应天钩、造父等星官，造父变星因在此星座发现而得名。",
+    "lines": [
+      {
+        "fromRA": 22.4833,
+        "fromDec": 58.4167,
+        "toRA": 21.4833,
+        "toDec": 70.5667
+      },
+      {
+        "fromRA": 21.4833,
+        "fromDec": 70.5667,
+        "toRA": 21.3167,
+        "toDec": 62.5833
+      },
+      {
+        "fromRA": 22.4833,
+        "fromDec": 58.4167,
+        "toRA": 22.1667,
+        "toDec": 57.0
+      }
+    ]
+  },
+  {
+    "name": "鲸鱼座",
+    "abbreviation": "Cet",
+    "area": 1231,
+    "brightestStar": "天囷一",
+    "season": "秋",
+    "mythology": "希腊神话：海怪刻托，被珀尔修斯杀死。中国星官：对应天囷、天仓等星官，天囷代表圆形粮仓。",
+    "lines": [
+      {
+        "fromRA": 2.7167,
+        "fromDec": 3.2333,
+        "toRA": 1.7333,
+        "toDec": -10.3333
+      },
+      {
+        "fromRA": 1.7333,
+        "fromDec": -10.3333,
+        "toRA": 0.7167,
+        "toDec": -18.0
+      },
+      {
+        "fromRA": 2.7167,
+        "fromDec": 3.2333,
+        "toRA": 2.3167,
+        "toDec": -3.0
+      }
+    ]
+  },
+  {
+    "name": "蝘蜓座",
+    "abbreviation": "Cha",
+    "area": 132,
+    "brightestStar": "蝘蜓座α",
+    "season": "夏",
+    "mythology": "希腊神话：16世纪航海家命名，代表变色龙。中国星官：地处南天极附近，古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 8.3167,
+        "fromDec": -76.9167,
+        "toRA": 10.5833,
+        "toDec": -78.6
+      },
+      {
+        "fromRA": 10.5833,
+        "fromDec": -78.6,
+        "toRA": 12.2,
+        "toDec": -79.3167
+      }
+    ]
+  },
+  {
+    "name": "圆规座",
+    "abbreviation": "Cir",
+    "area": 93,
+    "brightestStar": "圆规座α",
+    "season": "夏",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表绘图圆规。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 14.8,
+        "fromDec": -64.9833,
+        "toRA": 14.7167,
+        "toDec": -67.0
+      },
+      {
+        "fromRA": 14.8,
+        "fromDec": -64.9833,
+        "toRA": 15.4167,
+        "toDec": -63.0
+      }
+    ]
+  },
+  {
+    "name": "天鸽座",
+    "abbreviation": "Col",
+    "area": 270,
+    "brightestStar": "丈人一",
+    "season": "冬",
+    "mythology": "希腊神话：代表诺亚方舟放出的鸽子。中国星官：对应丈人、子、孙等星官，代表老人与子孙。",
+    "lines": [
+      {
+        "fromRA": 5.6667,
+        "fromDec": -35.2833,
+        "toRA": 5.85,
+        "toDec": -35.0833
+      },
+      {
+        "fromRA": 5.85,
+        "fromDec": -35.0833,
+        "toRA": 6.3667,
+        "toDec": -37.0
+      }
+    ]
+  },
+  {
+    "name": "后发座",
+    "abbreviation": "Com",
+    "area": 386,
+    "brightestStar": "后发座β",
+    "season": "春",
+    "mythology": "希腊神话：埃及王后贝伦妮斯二世献祭的秀发。中国星官：对应郎将、周鼎等星官，位于太微垣附近。",
+    "lines": [
+      {
+        "fromRA": 13.1667,
+        "fromDec": 17.5333,
+        "toRA": 13.0,
+        "toDec": 26.0
+      },
+      {
+        "fromRA": 13.0,
+        "fromDec": 26.0,
+        "toRA": 12.45,
+        "toDec": 24.3333
+      }
+    ]
+  },
+  {
+    "name": "南冕座",
+    "abbreviation": "CrA",
+    "area": 128,
+    "brightestStar": "南冕座α",
+    "season": "夏",
+    "mythology": "希腊神话：人马座的王冠。中国星官：对应鳖星官，代表水中的甲鱼。",
+    "lines": [
+      {
+        "fromRA": 18.5333,
+        "fromDec": -40.0,
+        "toRA": 18.8167,
+        "toDec": -37.0667
+      },
+      {
+        "fromRA": 18.8167,
+        "fromDec": -37.0667,
+        "toRA": 19.0333,
+        "toDec": -38.0
+      }
+    ]
+  },
+  {
+    "name": "北冕座",
+    "abbreviation": "CrB",
+    "area": 179,
+    "brightestStar": "贯索四",
+    "season": "夏",
+    "mythology": "希腊神话：阿里阿德涅公主的婚礼王冠，由酒神狄俄尼索斯送给她。中国星官：对应贯索星官，代表捆绑犯人的绳索。",
+    "lines": [
+      {
+        "fromRA": 15.5833,
+        "fromDec": 26.7167,
+        "toRA": 15.4667,
+        "toDec": 29.0
+      },
+      {
+        "fromRA": 15.4667,
+        "fromDec": 29.0,
+        "toRA": 15.3,
+        "toDec": 33.0
+      },
+      {
+        "fromRA": 15.5833,
+        "fromDec": 26.7167,
+        "toRA": 15.9167,
+        "toDec": 31.0
+      }
+    ]
+  },
+  {
+    "name": "乌鸦座",
+    "abbreviation": "Crv",
+    "area": 184,
+    "brightestStar": "轸宿一",
+    "season": "春",
+    "mythology": "希腊神话：阿波罗派去取水的乌鸦，因迟到谎报被罚永远口渴。中国星官：对应轸宿，属南方朱雀七宿，是朱雀的尾巴。",
+    "lines": [
+      {
+        "fromRA": 12.2667,
+        "fromDec": -17.5333,
+        "toRA": 12.1667,
+        "toDec": -23.0
+      },
+      {
+        "fromRA": 12.1667,
+        "fromDec": -23.0,
+        "toRA": 12.5,
+        "toDec": -23.5
+      },
+      {
+        "fromRA": 12.2667,
+        "fromDec": -17.5333,
+        "toRA": 12.5833,
+        "toDec": -18.3333
+      }
+    ]
+  },
+  {
+    "name": "巨爵座",
+    "abbreviation": "Crt",
+    "area": 282,
+    "brightestStar": "巨爵座δ",
+    "season": "春",
+    "mythology": "希腊神话：阿波罗的酒杯。中国星官：对应翼宿部分，属南方朱雀七宿。",
+    "lines": [
+      {
+        "fromRA": 11.3167,
+        "fromDec": -14.7833,
+        "toRA": 10.9833,
+        "toDec": -18.0
+      },
+      {
+        "fromRA": 10.9833,
+        "fromDec": -18.0,
+        "toRA": 11.0167,
+        "toDec": -22.5
+      },
+      {
+        "fromRA": 11.3167,
+        "fromDec": -14.7833,
+        "toRA": 11.6333,
+        "toDec": -15.0
+      }
+    ]
+  },
+  {
+    "name": "南十字座",
+    "abbreviation": "Cru",
+    "area": 68,
+    "brightestStar": "十字架二",
+    "season": "春",
+    "mythology": "希腊神话：原属半人马座，17世纪独立为星座。中国星官：古代中国未见此星座，但明代郑和下西洋时已有记录。",
+    "lines": [
+      {
+        "fromRA": 12.45,
+        "fromDec": -63.1,
+        "toRA": 12.8,
+        "toDec": -59.6833
+      },
+      {
+        "fromRA": 12.45,
+        "fromDec": -63.1,
+        "toRA": 12.25,
+        "toDec": -58.75
+      },
+      {
+        "fromRA": 12.8,
+        "fromDec": -59.6833,
+        "toRA": 12.9167,
+        "toDec": -57.0
+      }
+    ]
+  },
+  {
+    "name": "天鹅座",
+    "abbreviation": "Cyg",
+    "area": 804,
+    "brightestStar": "天津四",
+    "season": "夏",
+    "mythology": "希腊神话：宙斯化为天鹅接近勒达。中国星官：天津四即在此星座，对应天津星官，是银河上的渡口，七夕鹊桥所在之处。",
+    "lines": [
+      {
+        "fromRA": 20.6833,
+        "fromDec": 45.2833,
+        "toRA": 20.3667,
+        "toDec": 40.25
+      },
+      {
+        "fromRA": 20.3667,
+        "fromDec": 40.25,
+        "toRA": 19.75,
+        "toDec": 45.1333
+      },
+      {
+        "fromRA": 19.75,
+        "fromDec": 45.1333,
+        "toRA": 19.5167,
+        "toDec": 27.9667
+      },
+      {
+        "fromRA": 20.6833,
+        "fromDec": 45.2833,
+        "toRA": 20.7667,
+        "toDec": 33.9667
+      },
+      {
+        "fromRA": 20.7667,
+        "fromDec": 33.9667,
+        "toRA": 19.5167,
+        "toDec": 27.9667
+      }
+    ]
+  },
+  {
+    "name": "海豚座",
+    "abbreviation": "Del",
+    "area": 189,
+    "brightestStar": "海豚座β",
+    "season": "夏",
+    "mythology": "希腊神话：波塞冬派海豚说服安菲特里忒嫁给他。中国星官：对应瓠瓜、败瓜等星官。",
+    "lines": [
+      {
+        "fromRA": 20.6667,
+        "fromDec": 15.9167,
+        "toRA": 20.7833,
+        "toDec": 16.0
+      },
+      {
+        "fromRA": 20.7833,
+        "fromDec": 16.0,
+        "toRA": 20.8667,
+        "toDec": 17.5
+      },
+      {
+        "fromRA": 20.6667,
+        "fromDec": 15.9167,
+        "toRA": 20.5667,
+        "toDec": 14.6
+      }
+    ]
+  },
+  {
+    "name": "剑鱼座",
+    "abbreviation": "Dor",
+    "area": 179,
+    "brightestStar": "剑鱼座α",
+    "season": "冬",
+    "mythology": "希腊神话：16世纪航海家命名，代表剑鱼。中国星官：位于南天，古代中国未见。大麦哲伦云在此星座。",
+    "lines": [
+      {
+        "fromRA": 5.4333,
+        "fromDec": -65.0,
+        "toRA": 4.5667,
+        "toDec": -55.0
+      },
+      {
+        "fromRA": 4.5667,
+        "fromDec": -55.0,
+        "toRA": 4.0,
+        "toDec": -52.5
+      }
+    ]
+  },
+  {
+    "name": "天龙座",
+    "abbreviation": "Dra",
+    "area": 1083,
+    "brightestStar": "天棓四",
+    "season": "夏",
+    "mythology": "希腊神话：守卫金苹果园的百头巨龙拉冬。中国星官：对应紫微垣诸星，天棓、天厨、天柱等星官在此。",
+    "lines": [
+      {
+        "fromRA": 17.95,
+        "fromDec": 51.4833,
+        "toRA": 16.4,
+        "toDec": 61.5167
+      },
+      {
+        "fromRA": 16.4,
+        "fromDec": 61.5167,
+        "toRA": 15.4,
+        "toDec": 65.0
+      },
+      {
+        "fromRA": 17.95,
+        "fromDec": 51.4833,
+        "toRA": 18.4167,
+        "toDec": 59.5
+      },
+      {
+        "fromRA": 17.95,
+        "fromDec": 51.4833,
+        "toRA": 17.5333,
+        "toDec": 55.1833
+      }
+    ]
+  },
+  {
+    "name": "小马座",
+    "abbreviation": "Equ",
+    "area": 72,
+    "brightestStar": "虚宿二",
+    "season": "秋",
+    "mythology": "希腊神话：赫尔墨斯献给卡斯托尔的马。中国星官：对应虚宿、司危等星官。",
+    "lines": [
+      {
+        "fromRA": 21.2667,
+        "fromDec": 10.1333,
+        "toRA": 21.1833,
+        "toDec": 6.0
+      }
+    ]
+  },
+  {
+    "name": "波江座",
+    "abbreviation": "Eri",
+    "area": 1138,
+    "brightestStar": "水委一",
+    "season": "冬",
+    "mythology": "希腊神话：法厄同驾驶太阳车失控坠入的河流。中国星官：对应天苑、玉井等星官，天苑代表天帝的牧场。",
+    "lines": [
+      {
+        "fromRA": 3.55,
+        "fromDec": -9.4667,
+        "toRA": 4.2667,
+        "toDec": -7.0
+      },
+      {
+        "fromRA": 4.2667,
+        "fromDec": -7.0,
+        "toRA": 5.1333,
+        "toDec": -5.3333
+      },
+      {
+        "fromRA": 3.55,
+        "fromDec": -9.4667,
+        "toRA": 2.95,
+        "toDec": 0.0
+      }
+    ]
+  },
+  {
+    "name": "天炉座",
+    "abbreviation": "For",
+    "area": 398,
+    "brightestStar": "天炉座α",
+    "season": "秋",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表化学熔炉。中国星官：对应天庾星官，代表露天的谷仓。",
+    "lines": [
+      {
+        "fromRA": 3.2,
+        "fromDec": -29.0,
+        "toRA": 3.45,
+        "toDec": -35.0
+      },
+      {
+        "fromRA": 2.8167,
+        "fromDec": -32.5,
+        "toRA": 3.2,
+        "toDec": -29.0
+      }
+    ]
+  },
+  {
+    "name": "双子座",
+    "abbreviation": "Gem",
+    "area": 514,
+    "brightestStar": "北河三",
+    "season": "冬",
+    "mythology": "希腊神话：双胞胎卡斯托尔与波鲁克斯，同母异父却情深义重。中国星官：对应井宿，属南方朱雀七宿，北河二（卡斯托尔）和北河三（波鲁克斯）分属不同星官，寓意阴阳共存。",
+    "lines": [
+      {
+        "fromRA": 7.5833,
+        "fromDec": 31.8833,
+        "toRA": 7.75,
+        "toDec": 28.0333
+      },
+      {
+        "fromRA": 7.75,
+        "fromDec": 28.0333,
+        "toRA": 6.6333,
+        "toDec": 16.4
+      },
+      {
+        "fromRA": 7.5833,
+        "fromDec": 31.8833,
+        "toRA": 6.3833,
+        "toDec": 22.5
+      }
+    ]
+  },
+  {
+    "name": "天鹤座",
+    "abbreviation": "Gru",
+    "area": 366,
+    "brightestStar": "鹤一",
+    "season": "秋",
+    "mythology": "希腊神话：16世纪航海家命名，代表鹤。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 22.1333,
+        "fromDec": -46.9667,
+        "toRA": 22.7167,
+        "toDec": -44.0
+      },
+      {
+        "fromRA": 22.7167,
+        "fromDec": -44.0,
+        "toRA": 23.1333,
+        "toDec": -45.0
+      },
+      {
+        "fromRA": 22.1333,
+        "fromDec": -46.9667,
+        "toRA": 21.8833,
+        "toDec": -37.5
+      }
+    ]
+  },
+  {
+    "name": "武仙座",
+    "abbreviation": "Her",
+    "area": 1225,
+    "brightestStar": "帝座",
+    "season": "夏",
+    "mythology": "希腊神话：大力神赫拉克勒斯，完成十二项伟业。中国星官：对应天市垣诸星，帝座即在此星座，代表天帝的宝座。",
+    "lines": [
+      {
+        "fromRA": 17.25,
+        "fromDec": 24.8333,
+        "toRA": 16.6833,
+        "toDec": 31.6
+      },
+      {
+        "fromRA": 16.6833,
+        "fromDec": 31.6,
+        "toRA": 16.5,
+        "toDec": 26.0
+      },
+      {
+        "fromRA": 17.25,
+        "fromDec": 24.8333,
+        "toRA": 17.0,
+        "toDec": 36.0
+      },
+      {
+        "fromRA": 16.6833,
+        "fromDec": 31.6,
+        "toRA": 17.7667,
+        "toDec": 22.0
+      }
+    ]
+  },
+  {
+    "name": "时钟座",
+    "abbreviation": "Hor",
+    "area": 249,
+    "brightestStar": "时钟座α",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表摆钟。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 4.2333,
+        "fromDec": -42.3,
+        "toRA": 2.7167,
+        "toDec": -50.0
+      },
+      {
+        "fromRA": 2.7167,
+        "fromDec": -50.0,
+        "toRA": 2.4333,
+        "toDec": -55.0
+      }
+    ]
+  },
+  {
+    "name": "长蛇座",
+    "abbreviation": "Hya",
+    "area": 1303,
+    "brightestStar": "星宿一",
+    "season": "春",
+    "mythology": "希腊神话：赫拉克勒斯杀死的九头蛇许德拉。中国星官：对应星宿、柳宿、张宿等，属南方朱雀七宿，是二十八宿中最长的星区。",
+    "lines": [
+      {
+        "fromRA": 9.4667,
+        "fromDec": -8.6667,
+        "toRA": 10.4667,
+        "toDec": -18.0
+      },
+      {
+        "fromRA": 10.4667,
+        "fromDec": -18.0,
+        "toRA": 11.6167,
+        "toDec": -15.0
+      },
+      {
+        "fromRA": 9.4667,
+        "fromDec": -8.6667,
+        "toRA": 8.7667,
+        "toDec": 0.0
+      }
+    ]
+  },
+  {
+    "name": "水蛇座",
+    "abbreviation": "Hyi",
+    "area": 243,
+    "brightestStar": "水蛇座β",
+    "season": "秋",
+    "mythology": "希腊神话：16世纪航海家命名，代表水蛇。中国星官：位于南天，古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 2.7667,
+        "fromDec": -74.0,
+        "toRA": 1.9833,
+        "toDec": -67.0
+      },
+      {
+        "fromRA": 1.9833,
+        "fromDec": -67.0,
+        "toRA": 0.4167,
+        "toDec": -77.25
+      }
+    ]
+  },
+  {
+    "name": "印第安座",
+    "abbreviation": "Ind",
+    "area": 294,
+    "brightestStar": "印第安座α",
+    "season": "秋",
+    "mythology": "希腊神话：16世纪航海家命名，代表美洲印第安人。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 21.3333,
+        "fromDec": -53.45,
+        "toRA": 20.6167,
+        "toDec": -56.2833
+      },
+      {
+        "fromRA": 20.6167,
+        "fromDec": -56.2833,
+        "toRA": 21.0667,
+        "toDec": -59.0
+      }
+    ]
+  },
+  {
+    "name": "蝎虎座",
+    "abbreviation": "Lac",
+    "area": 201,
+    "brightestStar": "蝎虎座α",
+    "season": "秋",
+    "mythology": "希腊神话：17世纪赫维留命名，代表蜥蜴。中国星官：对应车府、螣蛇等星官。",
+    "lines": [
+      {
+        "fromRA": 22.4,
+        "fromDec": 52.0,
+        "toRA": 22.5167,
+        "toDec": 43.0
+      },
+      {
+        "fromRA": 22.5167,
+        "fromDec": 43.0,
+        "toRA": 22.25,
+        "toDec": 50.3333
+      }
+    ]
+  },
+  {
+    "name": "狮子座",
+    "abbreviation": "Leo",
+    "area": 947,
+    "brightestStar": "轩辕十四",
+    "season": "春",
+    "mythology": "希腊神话：赫拉克勒斯杀死的尼米亚雄狮。中国星官：轩辕十四即在此星座，对应轩辕星官，代表黄帝，是古代中国最尊贵的星官之一。",
+    "lines": [
+      {
+        "fromRA": 10.1333,
+        "fromDec": 11.9667,
+        "toRA": 10.3333,
+        "toDec": 19.85
+      },
+      {
+        "fromRA": 10.3333,
+        "fromDec": 19.85,
+        "toRA": 11.2333,
+        "toDec": 20.5167
+      },
+      {
+        "fromRA": 11.2333,
+        "fromDec": 20.5167,
+        "toRA": 11.8167,
+        "toDec": 14.5667
+      },
+      {
+        "fromRA": 10.1333,
+        "fromDec": 11.9667,
+        "toRA": 9.7667,
+        "toDec": 23.7667
+      },
+      {
+        "fromRA": 11.8167,
+        "fromDec": 14.5667,
+        "toRA": 11.5,
+        "toDec": 10.0
+      }
+    ]
+  },
+  {
+    "name": "小狮座",
+    "abbreviation": "LMi",
+    "area": 232,
+    "brightestStar": "小狮座46",
+    "season": "春",
+    "mythology": "希腊神话：17世纪赫维留命名的小型星座。中国星官：对应内平、势等星官。",
+    "lines": [
+      {
+        "fromRA": 10.4667,
+        "fromDec": 36.0,
+        "toRA": 10.0,
+        "toDec": 34.5
+      },
+      {
+        "fromRA": 10.4667,
+        "fromDec": 36.0,
+        "toRA": 10.9667,
+        "toDec": 38.0
+      }
+    ]
+  },
+  {
+    "name": "天兔座",
+    "abbreviation": "Lep",
+    "area": 290,
+    "brightestStar": "厕一",
+    "season": "冬",
+    "mythology": "希腊神话：猎户座猎犬追逐的猎物。中国星官：对应厕、屏等星官，代表厕所和屏风。",
+    "lines": [
+      {
+        "fromRA": 5.55,
+        "fromDec": -17.8167,
+        "toRA": 5.4667,
+        "toDec": -20.7667
+      },
+      {
+        "fromRA": 5.4667,
+        "fromDec": -20.7667,
+        "toRA": 5.0833,
+        "toDec": -22.45
+      },
+      {
+        "fromRA": 5.55,
+        "fromDec": -17.8167,
+        "toRA": 5.7833,
+        "toDec": -24.0
+      }
+    ]
+  },
+  {
+    "name": "天秤座",
+    "abbreviation": "Lib",
+    "area": 538,
+    "brightestStar": "氐宿四",
+    "season": "夏",
+    "mythology": "希腊神话：正义女神阿斯特赖亚的天平。中国星官：对应氐宿，属东方苍龙七宿，是苍龙的胸和前肢。",
+    "lines": [
+      {
+        "fromRA": 14.85,
+        "fromDec": -16.05,
+        "toRA": 15.2833,
+        "toDec": -19.0
+      },
+      {
+        "fromRA": 15.2833,
+        "fromDec": -19.0,
+        "toRA": 15.4167,
+        "toDec": -22.0
+      },
+      {
+        "fromRA": 14.85,
+        "fromDec": -16.05,
+        "toRA": 14.5,
+        "toDec": -21.0
+      }
+    ]
+  },
+  {
+    "name": "豺狼座",
+    "abbreviation": "Lup",
+    "area": 334,
+    "brightestStar": "骑官十",
+    "season": "夏",
+    "mythology": "希腊神话：被人马座刺死的野兽。中国星官：对应骑官、车骑等星官，代表骑兵和战车。",
+    "lines": [
+      {
+        "fromRA": 15.3667,
+        "fromDec": -44.6833,
+        "toRA": 14.7,
+        "toDec": -47.0
+      },
+      {
+        "fromRA": 14.7,
+        "fromDec": -47.0,
+        "toRA": 14.15,
+        "toDec": -51.0
+      },
+      {
+        "fromRA": 15.3667,
+        "fromDec": -44.6833,
+        "toRA": 15.9333,
+        "toDec": -43.0
+      }
+    ]
+  },
+  {
+    "name": "天猫座",
+    "abbreviation": "Lyn",
+    "area": 545,
+    "brightestStar": "天猫座α",
+    "season": "冬",
+    "mythology": "希腊神话：17世纪赫维留命名，需山猫般锐利眼睛才能看见。中国星官：位于大熊座附近，对应上台、中台等星官。",
+    "lines": [
+      {
+        "fromRA": 9.35,
+        "fromDec": 34.4,
+        "toRA": 8.1167,
+        "toDec": 40.0
+      },
+      {
+        "fromRA": 9.35,
+        "fromDec": 34.4,
+        "toRA": 6.3333,
+        "toDec": 59.0
+      }
+    ]
+  },
+  {
+    "name": "天琴座",
+    "abbreviation": "Lyr",
+    "area": 286,
+    "brightestStar": "织女星",
+    "season": "夏",
+    "mythology": "希腊神话：俄耳甫斯的竖琴，能用音乐感动万物。中国星官：织女星即在此星座，七夕传说中织女星所在，有'牛郎织女鹊桥相会'的动人故事。",
+    "lines": [
+      {
+        "fromRA": 18.6167,
+        "fromDec": 38.7833,
+        "toRA": 18.7333,
+        "toDec": 37.6
+      },
+      {
+        "fromRA": 18.7333,
+        "fromDec": 37.6,
+        "toRA": 18.8833,
+        "toDec": 33.0
+      },
+      {
+        "fromRA": 18.7333,
+        "fromDec": 37.6,
+        "toRA": 19.0833,
+        "toDec": 35.0
+      }
+    ]
+  },
+  {
+    "name": "山案座",
+    "abbreviation": "Men",
+    "area": 153,
+    "brightestStar": "山案座α",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表桌山。中国星官：位于南天，大麦哲伦云跨越此星座。",
+    "lines": [
+      {
+        "fromRA": 5.9,
+        "fromDec": -80.0,
+        "toRA": 4.2667,
+        "toDec": -74.0
+      },
+      {
+        "fromRA": 4.2667,
+        "fromDec": -74.0,
+        "toRA": 4.5333,
+        "toDec": -76.0
+      }
+    ]
+  },
+  {
+    "name": "显微镜座",
+    "abbreviation": "Mic",
+    "area": 210,
+    "brightestStar": "显微镜座γ",
+    "season": "秋",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表显微镜。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 20.8333,
+        "fromDec": -33.0,
+        "toRA": 21.0,
+        "toDec": -37.0
+      },
+      {
+        "fromRA": 21.0,
+        "fromDec": -37.0,
+        "toRA": 21.3333,
+        "toDec": -40.0
+      }
+    ]
+  },
+  {
+    "name": "麒麟座",
+    "abbreviation": "Mon",
+    "area": 482,
+    "brightestStar": "麒麟座α",
+    "season": "冬",
+    "mythology": "希腊神话：17世纪普兰修斯命名，代表独角兽。中国星官：对应四渎、阙丘等星官，四渎代表长江黄河等四大水系。",
+    "lines": [
+      {
+        "fromRA": 6.4833,
+        "fromDec": -10.0,
+        "toRA": 7.2,
+        "toDec": -7.0
+      },
+      {
+        "fromRA": 7.2,
+        "fromDec": -7.0,
+        "toRA": 7.9667,
+        "toDec": -7.0
+      },
+      {
+        "fromRA": 6.4833,
+        "fromDec": -10.0,
+        "toRA": 6.4167,
+        "toDec": 0.0
+      }
+    ]
+  },
+  {
+    "name": "苍蝇座",
+    "abbreviation": "Mus",
+    "area": 138,
+    "brightestStar": "蜜蜂三",
+    "season": "春",
+    "mythology": "希腊神话：16世纪航海家命名，代表苍蝇。中国星官：对应蜜蜂星官，古代中国称为'蜂'。",
+    "lines": [
+      {
+        "fromRA": 12.6167,
+        "fromDec": -69.1333,
+        "toRA": 12.7833,
+        "toDec": -68.0
+      },
+      {
+        "fromRA": 12.7833,
+        "fromDec": -68.0,
+        "toRA": 13.1333,
+        "toDec": -67.0
+      }
+    ]
+  },
+  {
+    "name": "矩尺座",
+    "abbreviation": "Nor",
+    "area": 165,
+    "brightestStar": "矩尺座γ",
+    "season": "夏",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表直角尺。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 16.05,
+        "fromDec": -50.0,
+        "toRA": 16.1167,
+        "toDec": -54.0
+      },
+      {
+        "fromRA": 16.05,
+        "fromDec": -50.0,
+        "toRA": 15.8167,
+        "toDec": -47.0
+      }
+    ]
+  },
+  {
+    "name": "南极座",
+    "abbreviation": "Oct",
+    "area": 291,
+    "brightestStar": "南极座ν",
+    "season": "全年",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表八分仪。中国星官：包含南天极，古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 21.0833,
+        "fromDec": -86.0,
+        "toRA": 14.0667,
+        "toDec": -84.0
+      }
+    ]
+  },
+  {
+    "name": "蛇夫座",
+    "abbreviation": "Oph",
+    "area": 948,
+    "brightestStar": "侯",
+    "season": "夏",
+    "mythology": "希腊神话：医神阿斯克勒庇俄斯，手持蛇杖。中国星官：对应天市垣诸星，侯星在此星座，宗正、宗人等星官代表皇家宗族事务。",
+    "lines": [
+      {
+        "fromRA": 17.5833,
+        "fromDec": -26.0,
+        "toRA": 17.1667,
+        "toDec": -22.0
+      },
+      {
+        "fromRA": 17.1667,
+        "fromDec": -22.0,
+        "toRA": 16.5,
+        "toDec": -16.0
+      },
+      {
+        "fromRA": 17.5833,
+        "fromDec": -26.0,
+        "toRA": 18.0,
+        "toDec": -23.0
+      },
+      {
+        "fromRA": 16.5,
+        "fromDec": -16.0,
+        "toRA": 17.5833,
+        "toDec": 12.5667
+      }
+    ]
+  },
+  {
+    "name": "猎户座",
+    "abbreviation": "Ori",
+    "area": 594,
+    "brightestStar": "参宿七",
+    "season": "冬",
+    "mythology": "希腊神话：猎人奥利安，被蝎子蜇死后升天为星座。中国星官：参宿即在此星座，属西方白虎七宿，'参商不相见'的典故源自此星与心宿（天蝎座）永不相见的观测现象。",
+    "lines": [
+      {
+        "fromRA": 5.9167,
+        "fromDec": 7.4,
+        "toRA": 5.4167,
+        "toDec": 6.35
+      },
+      {
+        "fromRA": 5.4167,
+        "fromDec": 6.35,
+        "toRA": 5.2333,
+        "toDec": -8.2
+      },
+      {
+        "fromRA": 5.2333,
+        "fromDec": -8.2,
+        "toRA": 5.8,
+        "toDec": -9.6667
+      },
+      {
+        "fromRA": 5.8,
+        "fromDec": -9.6667,
+        "toRA": 5.9167,
+        "toDec": 7.4
+      },
+      {
+        "fromRA": 5.6,
+        "fromDec": -1.2,
+        "toRA": 5.6833,
+        "toDec": -1.95
+      },
+      {
+        "fromRA": 5.6,
+        "fromDec": -1.2,
+        "toRA": 5.5333,
+        "toDec": -0.3
+      },
+      {
+        "fromRA": 5.2333,
+        "fromDec": -8.2,
+        "toRA": 5.6,
+        "toDec": -1.2
+      }
+    ]
+  },
+  {
+    "name": "孔雀座",
+    "abbreviation": "Pav",
+    "area": 378,
+    "brightestStar": "孔雀十一",
+    "season": "夏",
+    "mythology": "希腊神话：16世纪航海家命名，代表孔雀。中国星官：位于南天，古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 20.4333,
+        "fromDec": -56.7333,
+        "toRA": 18.75,
+        "toDec": -64.0
+      },
+      {
+        "fromRA": 18.75,
+        "fromDec": -64.0,
+        "toRA": 18.1333,
+        "toDec": -63.0
+      },
+      {
+        "fromRA": 20.4333,
+        "fromDec": -56.7333,
+        "toRA": 21.7333,
+        "toDec": -60.0
+      }
+    ]
+  },
+  {
+    "name": "飞马座",
+    "abbreviation": "Peg",
+    "area": 1121,
+    "brightestStar": "室宿一",
+    "season": "秋",
+    "mythology": "希腊神话：从美杜莎血液中诞生的飞马珀伽索斯。中国星官：对应室宿、壁宿，属北方玄武七宿，'秋季四边形'即飞马座的主体星群。",
+    "lines": [
+      {
+        "fromRA": 23.0833,
+        "fromDec": 15.2,
+        "toRA": 23.0667,
+        "toDec": 28.0833
+      },
+      {
+        "fromRA": 23.0667,
+        "fromDec": 28.0833,
+        "toRA": 0.1333,
+        "toDec": 29.0833
+      },
+      {
+        "fromRA": 0.1333,
+        "fromDec": 29.0833,
+        "toRA": 0.2167,
+        "toDec": 15.1833
+      },
+      {
+        "fromRA": 0.2167,
+        "fromDec": 15.1833,
+        "toRA": 23.0833,
+        "toDec": 15.2
+      }
+    ]
+  },
+  {
+    "name": "英仙座",
+    "abbreviation": "Per",
+    "area": 615,
+    "brightestStar": "天船三",
+    "season": "冬",
+    "mythology": "希腊神话：珀尔修斯斩杀美杜莎，手持其头颅。中国星官：对应天船、大陵等星官，大陵五（英仙座β）是著名食变星，即古代的'积尸'星。",
+    "lines": [
+      {
+        "fromRA": 3.4167,
+        "fromDec": 49.8667,
+        "toRA": 3.0833,
+        "toDec": 44.0
+      },
+      {
+        "fromRA": 3.0833,
+        "fromDec": 44.0,
+        "toRA": 2.3167,
+        "toDec": 57.0
+      },
+      {
+        "fromRA": 3.4167,
+        "fromDec": 49.8667,
+        "toRA": 3.9667,
+        "toDec": 44.0
+      },
+      {
+        "fromRA": 3.0833,
+        "fromDec": 44.0,
+        "toRA": 3.9667,
+        "toDec": 44.0
+      }
+    ]
+  },
+  {
+    "name": "凤凰座",
+    "abbreviation": "Phe",
+    "area": 469,
+    "brightestStar": "火鸟六",
+    "season": "秋",
+    "mythology": "希腊神话：16世纪航海家命名，代表凤凰。中国星官：位于南天，古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 0.4333,
+        "fromDec": -42.3,
+        "toRA": 0.1333,
+        "toDec": -53.0
+      },
+      {
+        "fromRA": 0.1333,
+        "fromDec": -53.0,
+        "toRA": 23.65,
+        "toDec": -46.0
+      },
+      {
+        "fromRA": 0.4333,
+        "fromDec": -42.3,
+        "toRA": 1.1333,
+        "toDec": -46.0
+      }
+    ]
+  },
+  {
+    "name": "绘架座",
+    "abbreviation": "Pic",
+    "area": 247,
+    "brightestStar": "绘架座α",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表画架。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 6.1,
+        "fromDec": -56.0,
+        "toRA": 5.8333,
+        "toDec": -53.0
+      },
+      {
+        "fromRA": 5.8333,
+        "fromDec": -53.0,
+        "toRA": 5.1667,
+        "toDec": -52.0
+      }
+    ]
+  },
+  {
+    "name": "双鱼座",
+    "abbreviation": "Psc",
+    "area": 889,
+    "brightestStar": "奎宿九",
+    "season": "秋",
+    "mythology": "希腊神话：爱神阿佛洛狄忒与厄洛斯化为鱼逃入河中。中国星官：对应奎宿、娄宿部分，属西方白虎七宿。",
+    "lines": [
+      {
+        "fromRA": 1.5333,
+        "fromDec": 15.35,
+        "toRA": 1.0333,
+        "toDec": 5.0
+      },
+      {
+        "fromRA": 1.0333,
+        "fromDec": 5.0,
+        "toRA": 23.0667,
+        "toDec": -5.0
+      },
+      {
+        "fromRA": 1.5333,
+        "fromDec": 15.35,
+        "toRA": 23.3833,
+        "toDec": 8.0
+      }
+    ]
+  },
+  {
+    "name": "南鱼座",
+    "abbreviation": "PsA",
+    "area": 245,
+    "brightestStar": "北落师门",
+    "season": "秋",
+    "mythology": "希腊神话：爱神阿佛洛狄忒化为的鱼。中国星官：北落师门在此星座，属室宿，是秋季星空的重要标志星。",
+    "lines": [
+      {
+        "fromRA": 22.9667,
+        "fromDec": -29.6167,
+        "toRA": 21.6667,
+        "toDec": -33.0
+      },
+      {
+        "fromRA": 21.6667,
+        "fromDec": -33.0,
+        "toRA": 22.2167,
+        "toDec": -30.0
+      }
+    ]
+  },
+  {
+    "name": "船尾座",
+    "abbreviation": "Pup",
+    "area": 673,
+    "brightestStar": "弧矢增二十二",
+    "season": "冬",
+    "mythology": "希腊神话：阿尔戈号船的船尾。中国星官：对应弧矢星官，是射向天狼星的弓箭。",
+    "lines": [
+      {
+        "fromRA": 7.8333,
+        "fromDec": -28.0,
+        "toRA": 8.0667,
+        "toDec": -40.0
+      },
+      {
+        "fromRA": 8.0667,
+        "fromDec": -40.0,
+        "toRA": 7.2833,
+        "toDec": -43.0
+      },
+      {
+        "fromRA": 7.8333,
+        "fromDec": -28.0,
+        "toRA": 7.7167,
+        "toDec": -20.0
+      }
+    ]
+  },
+  {
+    "name": "罗盘座",
+    "abbreviation": "Pyx",
+    "area": 221,
+    "brightestStar": "天狗五",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表航海罗盘。中国星官：对应天狗星官。",
+    "lines": [
+      {
+        "fromRA": 8.8333,
+        "fromDec": -33.0,
+        "toRA": 9.0,
+        "toDec": -28.0
+      },
+      {
+        "fromRA": 8.8333,
+        "fromDec": -33.0,
+        "toRA": 8.6667,
+        "toDec": -36.0
+      }
+    ]
+  },
+  {
+    "name": "网罟座",
+    "abbreviation": "Ret",
+    "area": 114,
+    "brightestStar": "夹白二",
+    "season": "冬",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表天文测量用十字丝。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 4.2833,
+        "fromDec": -62.0,
+        "toRA": 4.0,
+        "toDec": -59.0
+      },
+      {
+        "fromRA": 4.0,
+        "fromDec": -59.0,
+        "toRA": 3.6667,
+        "toDec": -65.0
+      }
+    ]
+  },
+  {
+    "name": "天箭座",
+    "abbreviation": "Sge",
+    "area": 80,
+    "brightestStar": "左旗五",
+    "season": "夏",
+    "mythology": "希腊神话：赫拉克勒斯射杀恶鹰的箭。中国星官：对应左旗星官，是古代军旗的象征。",
+    "lines": [
+      {
+        "fromRA": 19.6667,
+        "fromDec": 18.0,
+        "toRA": 20.0,
+        "toDec": 17.0
+      },
+      {
+        "fromRA": 20.0,
+        "fromDec": 17.0,
+        "toRA": 19.5,
+        "toDec": 17.5
+      }
+    ]
+  },
+  {
+    "name": "人马座",
+    "abbreviation": "Sgr",
+    "area": 867,
+    "brightestStar": "箕宿三",
+    "season": "夏",
+    "mythology": "希腊神话：半人半马的贤者喀戎。中国星官：对应斗宿、箕宿，属北方玄武七宿（此处为南斗六星，而非北斗），'南箕北斗'古诗中常提及。",
+    "lines": [
+      {
+        "fromRA": 18.4,
+        "fromDec": -34.3833,
+        "toRA": 18.9167,
+        "toDec": -26.3
+      },
+      {
+        "fromRA": 18.9167,
+        "fromDec": -26.3,
+        "toRA": 19.0333,
+        "toDec": -29.8833
+      },
+      {
+        "fromRA": 19.0333,
+        "fromDec": -29.8833,
+        "toRA": 18.7667,
+        "toDec": -27.0
+      },
+      {
+        "fromRA": 18.7667,
+        "fromDec": -27.0,
+        "toRA": 18.4,
+        "toDec": -34.3833
+      },
+      {
+        "fromRA": 18.4667,
+        "fromDec": -25.4167,
+        "toRA": 18.9167,
+        "toDec": -26.3
+      },
+      {
+        "fromRA": 18.4,
+        "fromDec": -34.3833,
+        "toRA": 19.3833,
+        "toDec": -35.0
+      }
+    ]
+  },
+  {
+    "name": "天蝎座",
+    "abbreviation": "Sco",
+    "area": 497,
+    "brightestStar": "心宿二",
+    "season": "夏",
+    "mythology": "希腊神话：蝎子蜇死猎户奥利安。中国星官：心宿即在此星座，属东方苍龙七宿，心宿二（大火星）是古代最重要的授时之星，'七月流火'即指此星西沉。",
+    "lines": [
+      {
+        "fromRA": 16.0833,
+        "fromDec": -19.8,
+        "toRA": 16.0,
+        "toDec": -22.6167
+      },
+      {
+        "fromRA": 16.0,
+        "fromDec": -22.6167,
+        "toRA": 16.4833,
+        "toDec": -26.4333
+      },
+      {
+        "fromRA": 16.4833,
+        "fromDec": -26.4333,
+        "toRA": 16.8333,
+        "toDec": -34.3
+      },
+      {
+        "fromRA": 16.8333,
+        "fromDec": -34.3,
+        "toRA": 17.5667,
+        "toDec": -37.1
+      },
+      {
+        "fromRA": 17.5667,
+        "fromDec": -37.1,
+        "toRA": 17.6167,
+        "toDec": -43.0
+      },
+      {
+        "fromRA": 15.9667,
+        "fromDec": -26.0,
+        "toRA": 16.0,
+        "toDec": -22.6167
+      }
+    ]
+  },
+  {
+    "name": "玉夫座",
+    "abbreviation": "Scl",
+    "area": 475,
+    "brightestStar": "玉夫座α",
+    "season": "秋",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表雕刻家的工坊。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 0.45,
+        "fromDec": -33.0,
+        "toRA": 0.1167,
+        "toDec": -29.0
+      },
+      {
+        "fromRA": 0.1167,
+        "fromDec": -29.0,
+        "toRA": 23.55,
+        "toDec": -38.0
+      }
+    ]
+  },
+  {
+    "name": "盾牌座",
+    "abbreviation": "Sct",
+    "area": 109,
+    "brightestStar": "盾牌座α",
+    "season": "夏",
+    "mythology": "希腊神话：17世纪赫维留为纪念波兰国王索别斯基命名。中国星官：对应天弁星官，位于银河明亮区域。",
+    "lines": [
+      {
+        "fromRA": 18.7833,
+        "fromDec": -10.0,
+        "toRA": 18.4833,
+        "toDec": -5.0
+      },
+      {
+        "fromRA": 18.7833,
+        "fromDec": -10.0,
+        "toRA": 18.9,
+        "toDec": -8.0
+      }
+    ]
+  },
+  {
+    "name": "巨蛇座(头)",
+    "abbreviation": "Ser",
+    "area": 637,
+    "brightestStar": "天市左垣七",
+    "season": "夏",
+    "mythology": "希腊神话：医神阿斯克勒庇俄斯手中的蛇。中国星官：对应天市垣诸星，是天空中唯一被分为两部分的星座。",
+    "lines": [
+      {
+        "fromRA": 15.7333,
+        "fromDec": 6.4333,
+        "toRA": 15.3333,
+        "toDec": 2.0
+      },
+      {
+        "fromRA": 15.7333,
+        "fromDec": 6.4333,
+        "toRA": 15.95,
+        "toDec": 18.0
+      }
+    ]
+  },
+  {
+    "name": "六分仪座",
+    "abbreviation": "Sex",
+    "area": 314,
+    "brightestStar": "六分仪座α",
+    "season": "春",
+    "mythology": "希腊神话：17世纪赫维留命名，代表天文六分仪。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 10.1333,
+        "fromDec": 0.0,
+        "toRA": 10.25,
+        "toDec": -5.0
+      },
+      {
+        "fromRA": 10.25,
+        "fromDec": -5.0,
+        "toRA": 10.5,
+        "toDec": -8.0
+      }
+    ]
+  },
+  {
+    "name": "金牛座",
+    "abbreviation": "Tau",
+    "area": 797,
+    "brightestStar": "毕宿五",
+    "season": "冬",
+    "mythology": "希腊神话：宙斯化身的白牛载走欧罗巴公主。中国星官：对应毕宿，属西方白虎七宿，'毕'为古代捕兔之网，毕宿五是冬季六边形一角，是二十八宿最重要的星宿之一。",
+    "lines": [
+      {
+        "fromRA": 4.6,
+        "fromDec": 16.5167,
+        "toRA": 5.4333,
+        "toDec": 28.6
+      },
+      {
+        "fromRA": 5.4333,
+        "fromDec": 28.6,
+        "toRA": 5.6333,
+        "toDec": 21.15
+      },
+      {
+        "fromRA": 4.6,
+        "fromDec": 16.5167,
+        "toRA": 3.8167,
+        "toDec": 24.0
+      }
+    ]
+  },
+  {
+    "name": "望远镜座",
+    "abbreviation": "Tel",
+    "area": 252,
+    "brightestStar": "望远镜座α",
+    "season": "夏",
+    "mythology": "希腊神话：18世纪拉卡伊命名，代表望远镜。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 18.7333,
+        "fromDec": -48.0,
+        "toRA": 19.0,
+        "toDec": -53.0
+      },
+      {
+        "fromRA": 18.7333,
+        "fromDec": -48.0,
+        "toRA": 18.3167,
+        "toDec": -46.0
+      }
+    ]
+  },
+  {
+    "name": "三角座",
+    "abbreviation": "Tri",
+    "area": 132,
+    "brightestStar": "天大将军九",
+    "season": "秋",
+    "mythology": "希腊神话：代表西西里岛，由西西里岛的三角形形状联想到。中国星官：对应天大将军星官。",
+    "lines": [
+      {
+        "fromRA": 2.2667,
+        "fromDec": 30.0,
+        "toRA": 1.8833,
+        "toDec": 29.5833
+      },
+      {
+        "fromRA": 1.8833,
+        "fromDec": 29.5833,
+        "toRA": 1.5333,
+        "toDec": 35.0
+      }
+    ]
+  },
+  {
+    "name": "南三角座",
+    "abbreviation": "TrA",
+    "area": 110,
+    "brightestStar": "三角形三",
+    "season": "夏",
+    "mythology": "希腊神话：16世纪航海家命名，代表南天三角形。中国星官：古代中国未见。",
+    "lines": [
+      {
+        "fromRA": 15.9167,
+        "fromDec": -63.4333,
+        "toRA": 16.8333,
+        "toDec": -69.0333
+      },
+      {
+        "fromRA": 15.9167,
+        "fromDec": -63.4333,
+        "toRA": 15.3,
+        "toDec": -68.0
+      }
+    ]
+  },
+  {
+    "name": "杜鹃座",
+    "abbreviation": "Tuc",
+    "area": 295,
+    "brightestStar": "杜鹃座α",
+    "season": "夏",
+    "mythology": "希腊神话：16世纪航海家命名，代表大嘴鸟。中国星官：位于南天，小麦哲伦云在此星座。",
+    "lines": [
+      {
+        "fromRA": 22.3167,
+        "fromDec": -60.0,
+        "toRA": 0.3333,
+        "toDec": -64.0
+      },
+      {
+        "fromRA": 0.3333,
+        "fromDec": -64.0,
+        "toRA": 0.5333,
+        "toDec": -62.0
+      },
+      {
+        "fromRA": 22.3167,
+        "fromDec": -60.0,
+        "toRA": 21.5,
+        "toDec": -60.0
+      }
+    ]
+  },
+  {
+    "name": "大熊座",
+    "abbreviation": "UMa",
+    "area": 1280,
+    "brightestStar": "玉衡",
+    "season": "春",
+    "mythology": "希腊神话：卡利斯托被宙斯变为熊后升天。中国星官：北斗七星属大熊座，是古代中国最重要的星群，用于辨方向、定季节，'斗柄指东，天下皆春'。",
+    "lines": [
+      {
+        "fromRA": 11.05,
+        "fromDec": 61.75,
+        "toRA": 11.0167,
+        "toDec": 56.3833
+      },
+      {
+        "fromRA": 11.0167,
+        "fromDec": 56.3833,
+        "toRA": 11.8833,
+        "toDec": 53.7
+      },
+      {
+        "fromRA": 11.8833,
+        "fromDec": 53.7,
+        "toRA": 12.25,
+        "toDec": 57.0333
+      },
+      {
+        "fromRA": 12.25,
+        "fromDec": 57.0333,
+        "toRA": 12.9,
+        "toDec": 55.9667
+      },
+      {
+        "fromRA": 12.9,
+        "fromDec": 55.9667,
+        "toRA": 13.4,
+        "toDec": 54.9333
+      },
+      {
+        "fromRA": 13.4,
+        "fromDec": 54.9333,
+        "toRA": 13.8,
+        "toDec": 49.3167
+      },
+      {
+        "fromRA": 11.0167,
+        "fromDec": 56.3833,
+        "toRA": 10.0833,
+        "toDec": 54.0
+      }
+    ]
+  },
+  {
+    "name": "小熊座",
+    "abbreviation": "UMi",
+    "area": 256,
+    "brightestStar": "北极星",
+    "season": "全年",
+    "mythology": "希腊神话：卡利斯托之子阿尔卡斯化身的熊。中国星官：北极星即钩陈一，属紫微垣核心，是帝王的象征，'为政以德，譬如北辰，居其所而众星共之'。",
+    "lines": [
+      {
+        "fromRA": 2.5333,
+        "fromDec": 89.2667,
+        "toRA": 15.7333,
+        "toDec": 77.6333
+      },
+      {
+        "fromRA": 15.7333,
+        "fromDec": 77.6333,
+        "toRA": 16.7,
+        "toDec": 82.0333
+      },
+      {
+        "fromRA": 16.7,
+        "fromDec": 82.0333,
+        "toRA": 17.5333,
+        "toDec": 86.5833
+      }
+    ]
+  },
+  {
+    "name": "船帆座",
+    "abbreviation": "Vel",
+    "area": 500,
+    "brightestStar": "天社一",
+    "season": "春",
+    "mythology": "希腊神话：阿尔戈号船的船帆。中国星官：对应天社星官，代表祭祀土地的场所。",
+    "lines": [
+      {
+        "fromRA": 9.6667,
+        "fromDec": -54.0,
+        "toRA": 8.6667,
+        "toDec": -46.0
+      },
+      {
+        "fromRA": 8.6667,
+        "fromDec": -46.0,
+        "toRA": 8.1667,
+        "toDec": -40.0
+      },
+      {
+        "fromRA": 9.6667,
+        "fromDec": -54.0,
+        "toRA": 9.85,
+        "toDec": -50.0
+      }
+    ]
+  },
+  {
+    "name": "室女座",
+    "abbreviation": "Vir",
+    "area": 1294,
+    "brightestStar": "角宿一",
+    "season": "春",
+    "mythology": "希腊神话：农业女神得墨忒尔或正义女神阿斯特赖亚。中国星官：角宿即在此星座，属东方苍龙七宿之首，角宿一为二十八宿最重要的星之一，'二月二龙抬头'与角宿东升有关。",
+    "lines": [
+      {
+        "fromRA": 13.4167,
+        "fromDec": -11.1667,
+        "toRA": 11.85,
+        "toDec": 0.0
+      },
+      {
+        "fromRA": 11.85,
+        "fromDec": 0.0,
+        "toRA": 12.9333,
+        "toDec": 0.0
+      },
+      {
+        "fromRA": 12.9333,
+        "fromDec": 0.0,
+        "toRA": 14.0667,
+        "toDec": -10.0
+      },
+      {
+        "fromRA": 13.4167,
+        "fromDec": -11.1667,
+        "toRA": 14.0667,
+        "toDec": -10.0
+      }
+    ]
+  },
+  {
+    "name": "飞鱼座",
+    "abbreviation": "Vol",
+    "area": 141,
+    "brightestStar": "飞鱼座β",
+    "season": "冬",
+    "mythology": "希腊神话：16世纪航海家命名，代表飞鱼。中国星官：古代中国未划分此区域。",
+    "lines": [
+      {
+        "fromRA": 8.0,
+        "fromDec": -70.0,
+        "toRA": 7.3167,
+        "toDec": -70.0
+      },
+      {
+        "fromRA": 7.3167,
+        "fromDec": -70.0,
+        "toRA": 7.0833,
+        "toDec": -67.0
+      }
+    ]
+  },
+  {
+    "name": "狐狸座",
+    "abbreviation": "Vul",
+    "area": 268,
+    "brightestStar": "狐狸座α",
+    "season": "夏",
+    "mythology": "希腊神话：17世纪赫维留命名，代表狐狸。中国星官：对应天津星官附近的空白区域，M27哑铃星云在此星座。",
+    "lines": [
+      {
+        "fromRA": 19.4833,
+        "fromDec": 24.0,
+        "toRA": 20.0,
+        "toDec": 22.0
+      },
+      {
+        "fromRA": 19.4833,
+        "fromDec": 24.0,
+        "toRA": 19.25,
+        "toDec": 25.0
+      }
+    ]
+  }
+]

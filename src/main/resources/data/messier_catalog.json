@@ -1,0 +1,992 @@
+[
+  {
+    "messierNumber": 1,
+    "name": "M1 蟹状星云",
+    "type": "星云",
+    "constellation": "金牛座",
+    "magnitude": 8.4,
+    "season": "冬",
+    "description": "1054年超新星遗迹，梅西耶星表第一号天体，位于金牛座ζ星附近"
+  },
+  {
+    "messierNumber": 2,
+    "name": "M2 球状星团",
+    "type": "星团",
+    "constellation": "宝瓶座",
+    "magnitude": 6.3,
+    "season": "秋",
+    "description": "宝瓶座亮球状星团，距地球约37,000光年，含约15万颗恒星"
+  },
+  {
+    "messierNumber": 3,
+    "name": "M3 球状星团",
+    "type": "星团",
+    "constellation": "猎犬座",
+    "magnitude": 6.2,
+    "season": "春",
+    "description": "猎犬座亮球状星团，距地球约33,900光年，含约50万颗恒星"
+  },
+  {
+    "messierNumber": 4,
+    "name": "M4 球状星团",
+    "type": "星团",
+    "constellation": "天蝎座",
+    "magnitude": 5.6,
+    "season": "夏",
+    "description": "天蝎座球状星团，距地球约7,200光年，是最近球状星团之一"
+  },
+  {
+    "messierNumber": 5,
+    "name": "M5 球状星团",
+    "type": "星团",
+    "constellation": "巨蛇座",
+    "magnitude": 5.6,
+    "season": "夏",
+    "description": "巨蛇座亮球状星团，距地球约24,500光年"
+  },
+  {
+    "messierNumber": 6,
+    "name": "M6 蝴蝶星团",
+    "type": "星团",
+    "constellation": "天蝎座",
+    "magnitude": 4.2,
+    "season": "夏",
+    "description": "天蝎座疏散星团，形状似蝴蝶，距地球约1,600光年"
+  },
+  {
+    "messierNumber": 7,
+    "name": "M7 托勒密星团",
+    "type": "星团",
+    "constellation": "天蝎座",
+    "magnitude": 3.3,
+    "season": "夏",
+    "description": "天蝎座疏散星团，公元130年托勒密记录，距地球约980光年"
+  },
+  {
+    "messierNumber": 8,
+    "name": "M8 礁湖星云",
+    "type": "星云",
+    "constellation": "人马座",
+    "magnitude": 6.0,
+    "season": "夏",
+    "description": "人马座发射星云，含疏散星团NGC 6530，距地球约5,200光年"
+  },
+  {
+    "messierNumber": 9,
+    "name": "M9 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 7.7,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约25,800光年"
+  },
+  {
+    "messierNumber": 10,
+    "name": "M10 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 6.6,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约14,300光年"
+  },
+  {
+    "messierNumber": 11,
+    "name": "M11 野鸭星团",
+    "type": "星团",
+    "constellation": "盾牌座",
+    "magnitude": 6.3,
+    "season": "夏",
+    "description": "盾牌座疏散星团，最密集疏散星团之一，距地球约6,200光年"
+  },
+  {
+    "messierNumber": 12,
+    "name": "M12 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 6.7,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约15,700光年"
+  },
+  {
+    "messierNumber": 13,
+    "name": "M13 武仙座大星团",
+    "type": "星团",
+    "constellation": "武仙座",
+    "magnitude": 5.8,
+    "season": "夏",
+    "description": "北天最壮观球状星团，距地球约22,200光年，含约30万颗恒星"
+  },
+  {
+    "messierNumber": 14,
+    "name": "M14 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 7.6,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约30,300光年"
+  },
+  {
+    "messierNumber": 15,
+    "name": "M15 球状星团",
+    "type": "星团",
+    "constellation": "飞马座",
+    "magnitude": 6.2,
+    "season": "秋",
+    "description": "飞马座球状星团，含行星状星云Pease 1，距地球约33,600光年"
+  },
+  {
+    "messierNumber": 16,
+    "name": "M16 鹰状星云",
+    "type": "星云",
+    "constellation": "巨蛇座",
+    "magnitude": 6.4,
+    "season": "夏",
+    "description": "巨蛇座发射星云，哈勃'创生之柱'所在，距地球约7,000光年"
+  },
+  {
+    "messierNumber": 17,
+    "name": "M17 天鹅星云",
+    "type": "星云",
+    "constellation": "人马座",
+    "magnitude": 6.0,
+    "season": "夏",
+    "description": "人马座发射星云，形似希腊字母Ω，又名欧米伽星云"
+  },
+  {
+    "messierNumber": 18,
+    "name": "M18 疏散星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 7.5,
+    "season": "夏",
+    "description": "人马座疏散星团，距地球约4,900光年"
+  },
+  {
+    "messierNumber": 19,
+    "name": "M19 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 6.8,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约28,700光年"
+  },
+  {
+    "messierNumber": 20,
+    "name": "M20 三叶星云",
+    "type": "星云",
+    "constellation": "人马座",
+    "magnitude": 6.3,
+    "season": "夏",
+    "description": "人马座发射/反射星云，被暗带分为三瓣，距地球约5,200光年"
+  },
+  {
+    "messierNumber": 21,
+    "name": "M21 疏散星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 6.5,
+    "season": "夏",
+    "description": "人马座疏散星团，邻近三叶星云，距地球约4,250光年"
+  },
+  {
+    "messierNumber": 22,
+    "name": "M22 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 5.1,
+    "season": "夏",
+    "description": "人马座亮球状星团，距地球约10,600光年，含行星状星云"
+  },
+  {
+    "messierNumber": 23,
+    "name": "M23 疏散星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 6.9,
+    "season": "夏",
+    "description": "人马座疏散星团，距地球约2,150光年"
+  },
+  {
+    "messierNumber": 24,
+    "name": "M24 人马座恒星云",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 4.6,
+    "season": "夏",
+    "description": "银河系中密集恒星区域，非真正星团，是人马臂上的窗口"
+  },
+  {
+    "messierNumber": 25,
+    "name": "M25 疏散星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 4.9,
+    "season": "夏",
+    "description": "人马座疏散星团，距地球约2,000光年"
+  },
+  {
+    "messierNumber": 26,
+    "name": "M26 疏散星团",
+    "type": "星团",
+    "constellation": "盾牌座",
+    "magnitude": 8.0,
+    "season": "夏",
+    "description": "盾牌座疏散星团，距地球约5,000光年"
+  },
+  {
+    "messierNumber": 27,
+    "name": "M27 哑铃星云",
+    "type": "星云",
+    "constellation": "狐狸座",
+    "magnitude": 7.5,
+    "season": "夏",
+    "description": "狐狸座行星状星云，首个被发现的此类天体，距地球约1,360光年"
+  },
+  {
+    "messierNumber": 28,
+    "name": "M28 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 6.8,
+    "season": "夏",
+    "description": "人马座球状星团，距地球约18,300光年"
+  },
+  {
+    "messierNumber": 29,
+    "name": "M29 疏散星团",
+    "type": "星团",
+    "constellation": "天鹅座",
+    "magnitude": 7.1,
+    "season": "夏",
+    "description": "天鹅座疏散星团，距地球约7,200光年"
+  },
+  {
+    "messierNumber": 30,
+    "name": "M30 球状星团",
+    "type": "星团",
+    "constellation": "摩羯座",
+    "magnitude": 7.2,
+    "season": "秋",
+    "description": "摩羯座球状星团，距地球约27,100光年"
+  },
+  {
+    "messierNumber": 31,
+    "name": "M31 仙女座星系",
+    "type": "星系",
+    "constellation": "仙女座",
+    "magnitude": 3.44,
+    "season": "秋",
+    "description": "距银河系最近的巨型旋涡星系，肉眼可见，距地球约250万光年"
+  },
+  {
+    "messierNumber": 32,
+    "name": "M32 矮椭圆星系",
+    "type": "星系",
+    "constellation": "仙女座",
+    "magnitude": 8.1,
+    "season": "秋",
+    "description": "M31的伴星系，矮椭圆星系，距地球约265万光年"
+  },
+  {
+    "messierNumber": 33,
+    "name": "M33 三角座星系",
+    "type": "星系",
+    "constellation": "三角座",
+    "magnitude": 5.7,
+    "season": "秋",
+    "description": "本星系群第三大星系，面向地球的旋涡星系，距地球约300万光年"
+  },
+  {
+    "messierNumber": 34,
+    "name": "M34 疏散星团",
+    "type": "星团",
+    "constellation": "英仙座",
+    "magnitude": 5.5,
+    "season": "冬",
+    "description": "英仙座疏散星团，距地球约1,500光年"
+  },
+  {
+    "messierNumber": 35,
+    "name": "M35 疏散星团",
+    "type": "星团",
+    "constellation": "双子座",
+    "magnitude": 5.3,
+    "season": "冬",
+    "description": "双子座疏散星团，距地球约2,800光年"
+  },
+  {
+    "messierNumber": 36,
+    "name": "M36 疏散星团",
+    "type": "星团",
+    "constellation": "御夫座",
+    "magnitude": 6.3,
+    "season": "冬",
+    "description": "御夫座疏散星团，距地球约4,100光年"
+  },
+  {
+    "messierNumber": 37,
+    "name": "M37 疏散星团",
+    "type": "星团",
+    "constellation": "御夫座",
+    "magnitude": 6.2,
+    "season": "冬",
+    "description": "御夫座最亮疏散星团，距地球约4,400光年"
+  },
+  {
+    "messierNumber": 38,
+    "name": "M38 疏散星团",
+    "type": "星团",
+    "constellation": "御夫座",
+    "magnitude": 7.4,
+    "season": "冬",
+    "description": "御夫座疏散星团，距地球约4,200光年"
+  },
+  {
+    "messierNumber": 39,
+    "name": "M39 疏散星团",
+    "type": "星团",
+    "constellation": "天鹅座",
+    "magnitude": 5.5,
+    "season": "夏",
+    "description": "天鹅座疏散星团，距地球约824光年"
+  },
+  {
+    "messierNumber": 40,
+    "name": "M40 Winnecke 4",
+    "type": "星团",
+    "constellation": "大熊座",
+    "magnitude": 8.4,
+    "season": "春",
+    "description": "双星而非星团，梅西耶误录，实际为视双星Winnecke 4"
+  },
+  {
+    "messierNumber": 41,
+    "name": "M41 疏散星团",
+    "type": "星团",
+    "constellation": "大犬座",
+    "magnitude": 4.6,
+    "season": "冬",
+    "description": "大犬座疏散星团，天狼星以南4度，距地球约2,300光年"
+  },
+  {
+    "messierNumber": 42,
+    "name": "M42 猎户座大星云",
+    "type": "星云",
+    "constellation": "猎户座",
+    "magnitude": 4.0,
+    "season": "冬",
+    "description": "最明亮的弥漫星云，冬季星空标志性目标，距地球约1,344光年"
+  },
+  {
+    "messierNumber": 43,
+    "name": "M43 德梅兰星云",
+    "type": "星云",
+    "constellation": "猎户座",
+    "magnitude": 9.0,
+    "season": "冬",
+    "description": "M42的伴星云，被暗带分隔，距地球约1,600光年"
+  },
+  {
+    "messierNumber": 44,
+    "name": "M44 蜂巢星团",
+    "type": "星团",
+    "constellation": "巨蟹座",
+    "magnitude": 3.7,
+    "season": "春",
+    "description": "巨蟹座疏散星团，又名鬼星团，肉眼可见，距地球约577光年"
+  },
+  {
+    "messierNumber": 45,
+    "name": "M45 昴星团",
+    "type": "星团",
+    "constellation": "金牛座",
+    "magnitude": 1.6,
+    "season": "冬",
+    "description": "著名疏散星团，俗称七姐妹星团，距地球约444光年"
+  },
+  {
+    "messierNumber": 46,
+    "name": "M46 疏散星团",
+    "type": "星团",
+    "constellation": "船尾座",
+    "magnitude": 6.0,
+    "season": "冬",
+    "description": "船尾座疏散星团，含行星状星云NGC 2438，距地球约5,400光年"
+  },
+  {
+    "messierNumber": 47,
+    "name": "M47 疏散星团",
+    "type": "星团",
+    "constellation": "船尾座",
+    "magnitude": 4.2,
+    "season": "冬",
+    "description": "船尾座疏散星团，距地球约1,600光年"
+  },
+  {
+    "messierNumber": 48,
+    "name": "M48 疏散星团",
+    "type": "星团",
+    "constellation": "长蛇座",
+    "magnitude": 5.5,
+    "season": "春",
+    "description": "长蛇座疏散星团，距地球约1,500光年"
+  },
+  {
+    "messierNumber": 49,
+    "name": "M49 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 8.4,
+    "season": "春",
+    "description": "室女座星系团最亮椭圆星系，距地球约5,600万光年"
+  },
+  {
+    "messierNumber": 50,
+    "name": "M50 疏散星团",
+    "type": "星团",
+    "constellation": "麒麟座",
+    "magnitude": 6.3,
+    "season": "冬",
+    "description": "麒麟座疏散星团，距地球约3,200光年"
+  },
+  {
+    "messierNumber": 51,
+    "name": "M51 涡状星系",
+    "type": "星系",
+    "constellation": "猎犬座",
+    "magnitude": 8.4,
+    "season": "春",
+    "description": "猎犬座交互旋涡星系，与伴星系NGC 5195相互作用，距地球约2,300万光年"
+  },
+  {
+    "messierNumber": 52,
+    "name": "M52 疏散星团",
+    "type": "星团",
+    "constellation": "仙后座",
+    "magnitude": 7.3,
+    "season": "秋",
+    "description": "仙后座疏散星团，距地球约5,000光年"
+  },
+  {
+    "messierNumber": 53,
+    "name": "M53 球状星团",
+    "type": "星团",
+    "constellation": "后发座",
+    "magnitude": 7.6,
+    "season": "春",
+    "description": "后发座球状星团，距地球约58,000光年"
+  },
+  {
+    "messierNumber": 54,
+    "name": "M54 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 7.6,
+    "season": "夏",
+    "description": "人马座球状星团，位于人马座矮椭球星系核，距地球约87,400光年"
+  },
+  {
+    "messierNumber": 55,
+    "name": "M55 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 6.3,
+    "season": "夏",
+    "description": "人马座球状星团，距地球约17,600光年"
+  },
+  {
+    "messierNumber": 56,
+    "name": "M56 球状星团",
+    "type": "星团",
+    "constellation": "天琴座",
+    "magnitude": 8.3,
+    "season": "夏",
+    "description": "天琴座球状星团，距地球约32,900光年"
+  },
+  {
+    "messierNumber": 57,
+    "name": "M57 环状星云",
+    "type": "星云",
+    "constellation": "天琴座",
+    "magnitude": 8.8,
+    "season": "夏",
+    "description": "天琴座著名行星状星云，形似戒指，距地球约2,300光年"
+  },
+  {
+    "messierNumber": 58,
+    "name": "M58 旋涡星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.7,
+    "season": "春",
+    "description": "室女座星系团棒旋星系，距地球约6,800万光年"
+  },
+  {
+    "messierNumber": 59,
+    "name": "M59 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.6,
+    "season": "春",
+    "description": "室女座星系团椭圆星系，距地球约6,000万光年"
+  },
+  {
+    "messierNumber": 60,
+    "name": "M60 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 8.8,
+    "season": "春",
+    "description": "室女座星系团大质量椭圆星系，邻近NGC 4647，距地球约5,500万光年"
+  },
+  {
+    "messierNumber": 61,
+    "name": "M61 旋涡星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.7,
+    "season": "春",
+    "description": "室女座星系团正面旋涡星系，距地球约5,200万光年"
+  },
+  {
+    "messierNumber": 62,
+    "name": "M62 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 6.5,
+    "season": "夏",
+    "description": "蛇夫座球状星团，距地球约22,500光年"
+  },
+  {
+    "messierNumber": 63,
+    "name": "M63 向日葵星系",
+    "type": "星系",
+    "constellation": "猎犬座",
+    "magnitude": 8.6,
+    "season": "春",
+    "description": "猎犬座旋涡星系，旋臂呈絮状结构像向日葵，距地球约3,700万光年"
+  },
+  {
+    "messierNumber": 64,
+    "name": "M64 黑眼星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 8.5,
+    "season": "春",
+    "description": "后发座旋涡星系，核区有显著暗带呈'黑眼'状，距地球约2,400万光年"
+  },
+  {
+    "messierNumber": 65,
+    "name": "M65 旋涡星系",
+    "type": "星系",
+    "constellation": "狮子座",
+    "magnitude": 9.3,
+    "season": "春",
+    "description": "狮子座三重星系之一，距地球约3,500万光年"
+  },
+  {
+    "messierNumber": 66,
+    "name": "M66 旋涡星系",
+    "type": "星系",
+    "constellation": "狮子座",
+    "magnitude": 8.9,
+    "season": "春",
+    "description": "狮子座三重星系之一，距地球约3,600万光年"
+  },
+  {
+    "messierNumber": 67,
+    "name": "M67 疏散星团",
+    "type": "星团",
+    "constellation": "巨蟹座",
+    "magnitude": 6.1,
+    "season": "春",
+    "description": "巨蟹座古老疏散星团，已知最古老的之一，距地球约2,700光年"
+  },
+  {
+    "messierNumber": 68,
+    "name": "M68 球状星团",
+    "type": "星团",
+    "constellation": "长蛇座",
+    "magnitude": 7.8,
+    "season": "春",
+    "description": "长蛇座球状星团，距地球约33,300光年"
+  },
+  {
+    "messierNumber": 69,
+    "name": "M69 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 7.6,
+    "season": "夏",
+    "description": "人马座球状星团，距地球约29,700光年"
+  },
+  {
+    "messierNumber": 70,
+    "name": "M70 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 7.9,
+    "season": "夏",
+    "description": "人马座球状星团，距地球约29,400光年"
+  },
+  {
+    "messierNumber": 71,
+    "name": "M71 球状星团",
+    "type": "星团",
+    "constellation": "天箭座",
+    "magnitude": 8.2,
+    "season": "夏",
+    "description": "天箭座疏散度较高的球状星团，距地球约13,000光年"
+  },
+  {
+    "messierNumber": 72,
+    "name": "M72 球状星团",
+    "type": "星团",
+    "constellation": "宝瓶座",
+    "magnitude": 9.3,
+    "season": "秋",
+    "description": "宝瓶座球状星团，距地球约53,400光年"
+  },
+  {
+    "messierNumber": 73,
+    "name": "M73 星群",
+    "type": "星团",
+    "constellation": "宝瓶座",
+    "magnitude": 9.0,
+    "season": "秋",
+    "description": "宝瓶座四星群，非真星团，距地球约2,500光年"
+  },
+  {
+    "messierNumber": 74,
+    "name": "M74 幻影星系",
+    "type": "星系",
+    "constellation": "双鱼座",
+    "magnitude": 9.4,
+    "season": "秋",
+    "description": "双鱼座正面旋涡星系，表面亮度极低，距地球约3,200万光年"
+  },
+  {
+    "messierNumber": 75,
+    "name": "M75 球状星团",
+    "type": "星团",
+    "constellation": "人马座",
+    "magnitude": 8.5,
+    "season": "夏",
+    "description": "人马座球状星团，密度等级I（极高），距地球约67,500光年"
+  },
+  {
+    "messierNumber": 76,
+    "name": "M76 小哑铃星云",
+    "type": "星云",
+    "constellation": "英仙座",
+    "magnitude": 10.1,
+    "season": "冬",
+    "description": "英仙座行星状星云，形似M27缩小版，距地球约2,500光年"
+  },
+  {
+    "messierNumber": 77,
+    "name": "M77 鲸鱼座A星系",
+    "type": "星系",
+    "constellation": "鲸鱼座",
+    "magnitude": 8.9,
+    "season": "秋",
+    "description": "鲸鱼座赛弗特星系，拥有活跃星系核，距地球约4,700万光年"
+  },
+  {
+    "messierNumber": 78,
+    "name": "M78 反射星云",
+    "type": "星云",
+    "constellation": "猎户座",
+    "magnitude": 8.3,
+    "season": "冬",
+    "description": "猎户座反射星云，距地球约1,600光年"
+  },
+  {
+    "messierNumber": 79,
+    "name": "M79 球状星团",
+    "type": "星团",
+    "constellation": "天兔座",
+    "magnitude": 7.7,
+    "season": "冬",
+    "description": "天兔座球状星团，距地球约42,100光年"
+  },
+  {
+    "messierNumber": 80,
+    "name": "M80 球状星团",
+    "type": "星团",
+    "constellation": "天蝎座",
+    "magnitude": 7.3,
+    "season": "夏",
+    "description": "天蝎座球状星团，密度极高，距地球约32,600光年"
+  },
+  {
+    "messierNumber": 81,
+    "name": "M81 波德星系",
+    "type": "星系",
+    "constellation": "大熊座",
+    "magnitude": 6.9,
+    "season": "春",
+    "description": "大熊座旋涡星系，与M82相互作用的M81星系群主导成员，距地球约1,200万光年"
+  },
+  {
+    "messierNumber": 82,
+    "name": "M82 雪茄星系",
+    "type": "星系",
+    "constellation": "大熊座",
+    "magnitude": 8.4,
+    "season": "春",
+    "description": "大熊座星暴星系，侧面视角呈雪茄形，距地球约1,200万光年"
+  },
+  {
+    "messierNumber": 83,
+    "name": "M83 南风车星系",
+    "type": "星系",
+    "constellation": "长蛇座",
+    "magnitude": 7.6,
+    "season": "春",
+    "description": "长蛇座正面旋涡星系，南天版M101，距地球约1,500万光年"
+  },
+  {
+    "messierNumber": 84,
+    "name": "M84 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.1,
+    "season": "春",
+    "description": "室女座星系团椭圆星系，马卡良链成员，距地球约6,000万光年"
+  },
+  {
+    "messierNumber": 85,
+    "name": "M85 透镜星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 9.1,
+    "season": "春",
+    "description": "后发座透镜星系，距地球约6,000万光年"
+  },
+  {
+    "messierNumber": 86,
+    "name": "M86 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 8.9,
+    "season": "春",
+    "description": "室女座星系团椭圆星系，马卡良链成员，蓝移表明正向我们靠近，距地球约5,200万光年"
+  },
+  {
+    "messierNumber": 87,
+    "name": "M87 室女座A",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 8.6,
+    "season": "春",
+    "description": "室女座星系团中心巨大椭圆星系，拥有著名喷流，2019年首张黑洞照片拍摄目标，距地球约5,350万光年"
+  },
+  {
+    "messierNumber": 88,
+    "name": "M88 旋涡星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 9.6,
+    "season": "春",
+    "description": "后发座旋涡星系，距地球约4,700万光年"
+  },
+  {
+    "messierNumber": 89,
+    "name": "M89 椭圆星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.8,
+    "season": "春",
+    "description": "室女座星系团椭圆星系，距地球约5,000万光年"
+  },
+  {
+    "messierNumber": 90,
+    "name": "M90 旋涡星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 9.5,
+    "season": "春",
+    "description": "室女座星系团旋涡星系，呈贫血状（无活跃恒星形成），距地球约5,900万光年"
+  },
+  {
+    "messierNumber": 91,
+    "name": "M91 旋涡星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 10.2,
+    "season": "春",
+    "description": "后发座棒旋星系，梅西耶失踪天体之一后被重新确认，距地球约6,300万光年"
+  },
+  {
+    "messierNumber": 92,
+    "name": "M92 球状星团",
+    "type": "星团",
+    "constellation": "武仙座",
+    "magnitude": 6.4,
+    "season": "夏",
+    "description": "武仙座球状星团，常被M13光芒掩盖，距地球约26,700光年"
+  },
+  {
+    "messierNumber": 93,
+    "name": "M93 疏散星团",
+    "type": "星团",
+    "constellation": "船尾座",
+    "magnitude": 6.0,
+    "season": "冬",
+    "description": "船尾座疏散星团，距地球约3,600光年"
+  },
+  {
+    "messierNumber": 94,
+    "name": "M94 旋涡星系",
+    "type": "星系",
+    "constellation": "猎犬座",
+    "magnitude": 8.2,
+    "season": "春",
+    "description": "猎犬座旋涡星系，拥有内外双环结构，距地球约1,600万光年"
+  },
+  {
+    "messierNumber": 95,
+    "name": "M95 旋涡星系",
+    "type": "星系",
+    "constellation": "狮子座",
+    "magnitude": 9.7,
+    "season": "春",
+    "description": "狮子座I星系群成员，棒旋星系，距地球约3,800万光年"
+  },
+  {
+    "messierNumber": 96,
+    "name": "M96 旋涡星系",
+    "type": "星系",
+    "constellation": "狮子座",
+    "magnitude": 9.2,
+    "season": "春",
+    "description": "狮子座I星系群主导成员，距地球约3,100万光年"
+  },
+  {
+    "messierNumber": 97,
+    "name": "M97 猫头鹰星云",
+    "type": "星云",
+    "constellation": "大熊座",
+    "magnitude": 9.9,
+    "season": "春",
+    "description": "大熊座行星状星云，因两个暗区似猫头鹰眼睛，距地球约2,600光年"
+  },
+  {
+    "messierNumber": 98,
+    "name": "M98 旋涡星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 10.1,
+    "season": "春",
+    "description": "后发座旋涡星系，距地球约4,400万光年"
+  },
+  {
+    "messierNumber": 99,
+    "name": "M99 旋涡星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 9.9,
+    "season": "春",
+    "description": "后发座旋涡星系，室女座星系团中非对称结构显著，距地球约5,600万光年"
+  },
+  {
+    "messierNumber": 100,
+    "name": "M100 旋涡星系",
+    "type": "星系",
+    "constellation": "后发座",
+    "magnitude": 9.3,
+    "season": "春",
+    "description": "后发座正面旋涡星系，室女座星系团最亮旋涡星系之一，距地球约5,500万光年"
+  },
+  {
+    "messierNumber": 101,
+    "name": "M101 风车星系",
+    "type": "星系",
+    "constellation": "大熊座",
+    "magnitude": 7.9,
+    "season": "春",
+    "description": "大熊座正面旋涡星系，旋臂展开如风车，距地球约2,100万光年"
+  },
+  {
+    "messierNumber": 102,
+    "name": "M102 纺锤星系(有争议)",
+    "type": "星系",
+    "constellation": "天龙座",
+    "magnitude": 9.9,
+    "season": "夏",
+    "description": "天龙座透镜星系NGC 5866，M102身份有争议可能是M101重复观测，距地球约5,000万光年"
+  },
+  {
+    "messierNumber": 103,
+    "name": "M103 疏散星团",
+    "type": "星团",
+    "constellation": "仙后座",
+    "magnitude": 7.4,
+    "season": "秋",
+    "description": "仙后座疏散星团，梅西耶本人最后编号天体，距地球约10,000光年"
+  },
+  {
+    "messierNumber": 104,
+    "name": "M104 草帽星系",
+    "type": "星系",
+    "constellation": "室女座",
+    "magnitude": 8.0,
+    "season": "春",
+    "description": "室女座旋涡星系，壮观的暗尘埃带形似墨西哥草帽，距地球约2,800万光年"
+  },
+  {
+    "messierNumber": 105,
+    "name": "M105 椭圆星系",
+    "type": "星系",
+    "constellation": "狮子座",
+    "magnitude": 9.3,
+    "season": "春",
+    "description": "狮子座I星系群椭圆星系，距地球约3,200万光年"
+  },
+  {
+    "messierNumber": 106,
+    "name": "M106 旋涡星系",
+    "type": "星系",
+    "constellation": "猎犬座",
+    "magnitude": 8.4,
+    "season": "春",
+    "description": "猎犬座赛弗特星系，含脉泽源距离测定精确，距地球约2,400万光年"
+  },
+  {
+    "messierNumber": 107,
+    "name": "M107 球状星团",
+    "type": "星团",
+    "constellation": "蛇夫座",
+    "magnitude": 7.9,
+    "season": "夏",
+    "description": "蛇夫座球状星团，梅西耶补遗中最暗球状星团之一，距地球约20,900光年"
+  },
+  {
+    "messierNumber": 108,
+    "name": "M108 旋涡星系",
+    "type": "星系",
+    "constellation": "大熊座",
+    "magnitude": 10.0,
+    "season": "春",
+    "description": "大熊座旋涡星系，与M97猫头鹰星云在同一视场，距地球约4,600万光年"
+  },
+  {
+    "messierNumber": 109,
+    "name": "M109 棒旋星系",
+    "type": "星系",
+    "constellation": "大熊座",
+    "magnitude": 9.8,
+    "season": "春",
+    "description": "大熊座棒旋星系，M109星系群主导成员，距地球约8,350万光年"
+  },
+  {
+    "messierNumber": 110,
+    "name": "M110 矮椭圆星系",
+    "type": "星系",
+    "constellation": "仙女座",
+    "magnitude": 8.5,
+    "season": "秋",
+    "description": "M31的伴星系，矮椭圆星系，梅西耶星表最后条目，距地球约269万光年"
+  }
+]

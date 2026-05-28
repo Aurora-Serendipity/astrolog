@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant User as 用户
+    participant Main as 主模块
+    participant VehicleManager as 车辆管理模块
+    participant Vehicle as 车辆对象
+    
+    User->>Main: 选择车辆管理
+    Main->>VehicleManager: 获取可租赁车辆
+    VehicleManager->>Vehicle: 遍历车辆列表
+    Vehicle-->>VehicleManager: 返回车辆信息
+    VehicleManager-->>Main: 返回可租赁车辆列表
+    Main-->>User: 显示车辆列表

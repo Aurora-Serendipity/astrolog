@@ -1,0 +1,43 @@
+# Maven
+target/
+*.jar
+*.war
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build output
+out/
+bin/
+build/
+
+# Reports and data
+reports/
+*.sql.bak
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Superpowers brainstorms
+.superpowers/
+
+# Local configs (keep db.properties.example instead)
+# src/main/resources/db.properties

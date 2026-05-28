@@ -1,0 +1,15 @@
+[
+  {
+    "id": "RA01D98A5",
+    "vehicleId": "V004",
+    "vehicleModel": "宇通大巴",
+    "vehicleType": "客车",
+    "customerName": "zhangsan",
+    "dailyRent": 800.0,
+    "days": 5,
+    "totalFee": 3600,
+    "rentalDate": 1776857506602,
+    "returnDate": 1776857679811,
+    "status": "已归还"
+  }
+]

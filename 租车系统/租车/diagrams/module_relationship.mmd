@@ -1,0 +1,8 @@
+graph LR
+    A[Main 主模块] --> B[VehicleManager 车辆模块]
+    A --> C[RentalCalculator 计算模块]
+    C --> D[DiscountStrategyFactory 折扣策略工厂]
+    D --> E[CarDiscountStrategy 轿车策略]
+    D --> F[BusDiscountStrategy 客车策略]
+    D --> G[TruckDiscountStrategy 卡车策略]
+    D --> H[DefaultDiscountStrategy 默认策略]

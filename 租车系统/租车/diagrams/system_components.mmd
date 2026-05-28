@@ -1,0 +1,18 @@
+graph TB
+    subgraph 核心功能
+        A[车辆管理]
+        B[租车流程]
+        C[费用计算]
+    end
+    
+    subgraph 支持功能
+        D[数据存储]
+        E[用户交互]
+        F[错误处理]
+    end
+    
+    A --> D
+    B --> E
+    B --> C
+    C --> D
+    E --> F

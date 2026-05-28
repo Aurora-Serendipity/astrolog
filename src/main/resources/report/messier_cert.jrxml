@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              name="MessierCert" pageWidth="595" pageHeight="842"
+              leftMargin="40" rightMargin="40" topMargin="60" bottomMargin="60"
+              language="java">
+
+    <parameter name="USERNAME" class="java.lang.String"/>
+    <parameter name="COMPLETED_COUNT" class="java.lang.Integer"/>
+    <parameter name="TOTAL_COUNT" class="java.lang.Integer"/>
+    <parameter name="COMPLETED_AT" class="java.lang.String"/>
+
+    <title>
+        <band height="200">
+            <rectangle>
+                <reportElement x="0" y="0" width="515" height="200" forecolor="#999999" backcolor="#FDF6E3"/>
+            </rectangle>
+
+            <staticText>
+                <reportElement x="40" y="30" width="435" height="40"/>
+                <textElement textAlignment="Center" fontSize="26">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Messier Marathon - Completion Certificate]]></text>
+            </staticText>
+
+            <staticText>
+                <reportElement x="40" y="80" width="435" height="24"/>
+                <textElement textAlignment="Center" fontSize="16">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[This certifies that]]></text>
+            </staticText>
+
+            <textField>
+                <reportElement x="40" y="110" width="435" height="30"/>
+                <textElement textAlignment="Center" fontSize="20">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{USERNAME}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="40" y="150" width="435" height="24"/>
+                <textElement textAlignment="Center" fontSize="14">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[has successfully observed all 110 Messier objects]]></text>
+            </staticText>
+        </band>
+    </title>
+
+    <detail>
+        <band height="240">
+            <staticText>
+                <reportElement x="40" y="20" width="435" height="20"/>
+                <textElement textAlignment="Center" fontSize="13">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[Completed: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="160" y="20" width="200" height="20"/>
+                <textElement textAlignment="Left" fontSize="13">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{COMPLETED_COUNT} + " / " + $P{TOTAL_COUNT}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="40" y="50" width="435" height="20"/>
+                <textElement textAlignment="Center" fontSize="13">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[Date: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="160" y="50" width="200" height="20"/>
+                <textElement textAlignment="Left" fontSize="13">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{COMPLETED_AT}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="40" y="110" width="435" height="40"/>
+                <textElement textAlignment="Center" fontSize="12">
+                    <font fontName="SansSerif" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[Issued in recognition of this outstanding achievement]]></text>
+            </staticText>
+
+            <line>
+                <reportElement x="150" y="170" width="215" height="1"/>
+            </line>
+            <staticText>
+                <reportElement x="150" y="178" width="215" height="20"/>
+                <textElement textAlignment="Center" fontSize="11">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[AstroLog v1.0 - Astronomical Observation Log & Star Management]]></text>
+            </staticText>
+        </band>
+    </detail>
+
+</jasperReport>

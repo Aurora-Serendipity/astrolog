@@ -1,0 +1,271 @@
+# 租车系统架构设计说明书
+
+## 1. 架构概述
+
+### 1.1 系统架构
+租车系统采用分层架构设计，包含数据模型层、业务逻辑层和用户界面层。系统使用Java语言开发，基于Swing框架实现图形用户界面。
+
+### 1.2 核心组件
+- **数据模型层**：包含Vehicle类，负责存储车辆信息
+- **业务逻辑层**：包含VehicleManager类和DiscountStrategy接口及其实现类，负责车辆管理和费用计算
+- **用户界面层**：包含MainFrame、RentalDialog和FeeDetailDialog类，负责用户交互
+
+## 2. 模块设计
+
+### 2.1 数据模型层
+
+#### 2.1.1 Vehicle类
+- **功能**：存储车辆信息，包括车辆ID、类型、型号、日租金和状态
+- **属性**：
+  - id: String - 车辆唯一标识符
+  - type: String - 车辆类型
+  - model: String - 车辆型号
+  - dailyRate: int - 日租金
+  - status: String - 车辆状态
+- **方法**：
+  - 构造方法：初始化车辆信息
+  - getter和setter方法：访问和修改车辆属性
+
+### 2.2 业务逻辑层
+
+#### 2.2.1 VehicleManager类
+- **功能**：管理车辆列表，提供车辆的添加、查询和状态更新功能
+- **属性**：
+  - vehicles: List<Vehicle> - 车辆列表
+- **方法**：
+  - initializeVehicles(): 初始化预设车辆信息
+  - getVehicles(): 获取车辆列表
+  - updateVehicleStatus(String id, String status): 更新车辆状态
+  - getVehicleById(String id): 根据ID获取车辆
+
+#### 2.2.2 DiscountStrategy接口
+- **功能**：定义折扣策略的接口
+- **方法**：
+  - getDiscountRate(int days): 根据租赁天数返回折扣率
+
+#### 2.2.3 CarDiscountStrategy类
+- **功能**：实现轿车的折扣策略
+- **方法**：
+  - getDiscountRate(int days): 根据租赁天数返回相应的折扣率
+
+### 2.3 用户界面层
+
+#### 2.3.1 MainFrame类
+- **功能**：主窗口，显示车辆列表，提供租车和刷新列表功能
+- **属性**：
+  - vehicleManager: VehicleManager - 车辆管理器
+  - vehicleTable: JTable - 车辆信息表格
+  - rentalButton: JButton - 租车按钮
+  - refreshButton: JButton - 刷新列表按钮
+- **方法**：
+  - MainFrame(): 构造方法，初始化窗口和组件
+  - initComponents(): 初始化界面组件
+  - refreshVehicleList(): 刷新车辆列表
+  - rentalVehicle(): 处理租车按钮点击事件
+
+#### 2.3.2 RentalDialog类
+- **功能**：租车对话框，用于输入租赁天数和计算费用
+- **属性**：
+  - vehicle: Vehicle - 选中的车辆
+  - daysField: JTextField - 租赁天数输入框
+  - confirmButton: JButton - 确认按钮
+  - cancelButton: JButton - 取消按钮
+- **方法**：
+  - RentalDialog(JFrame parent, Vehicle vehicle): 构造方法，初始化对话框和组件
+  - initComponents(): 初始化界面组件
+  - calculateFee(): 计算租赁费用
+  - confirmRental(): 处理确认按钮点击事件
+
+#### 2.3.3 FeeDetailDialog类
+- **功能**：费用详情对话框，显示租车费用的详细信息
+- **属性**：
+  - vehicle: Vehicle - 租赁的车辆
+  - days: int - 租赁天数
+  - totalFee: int - 总费用
+  - confirmButton: JButton - 确认按钮
+- **方法**：
+  - FeeDetailDialog(JDialog parent, Vehicle vehicle, int days, int totalFee): 构造方法，初始化对话框和组件
+  - initComponents(): 初始化界面组件
+  - confirmFee(): 处理确认按钮点击事件
+
+## 3. 架构图
+
+### 3.1 系统架构图
+
+![系统架构图](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=system%20architecture%20diagram%20of%20car%20rental%20system%2C%20showing%20user%20interface%20layer%2C%20business%20logic%20layer%2C%20data%20model%20layer%20and%20their%20components%2C%20professional%20UML%20diagram&image_size=landscape_16_9)
+
+### 3.2 类图
+
+![类图](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=UML%20class%20diagram%20of%20car%20rental%20system%2C%20showing%20Vehicle%2C%20VehicleManager%2C%20DiscountStrategy%2C%20CarDiscountStrategy%2C%20MainFrame%2C%20RentalDialog%2C%20FeeDetailDialog%20classes%20and%20their%20relationships%2C%20professional%20diagram&image_size=landscape_16_9)
+
+## 4. 交互流程
+
+### 4.1 租车流程序列图
+
+![租车流程序列图](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=UML%20sequence%20diagram%20of%20car%20rental%20process%2C%20showing%20interactions%20between%20User%2C%20MainFrame%2C%20RentalDialog%2C%20FeeDetailDialog%2C%20VehicleManager%2C%20DiscountStrategy%2C%20professional%20diagram&image_size=landscape_16_9)
+
+## 5. 技术实现
+
+### 5.1 技术栈
+- **开发语言**：Java
+- **GUI框架**：Swing
+- **构建工具**：Maven
+
+### 5.2 包结构
+```
+com.rental
+├── model
+│   └── Vehicle.java
+├── strategy
+│   ├── DiscountStrategy.java
+│   └── CarDiscountStrategy.java
+├── manager
+│   └── VehicleManager.java
+└── ui
+    └── swing
+        ├── MainFrame.java
+        ├── RentalDialog.java
+        └── FeeDetailDialog.java
+```
+
+### 5.3 关键实现细节
+
+#### 5.3.1 折扣策略的实现
+使用策略模式实现折扣计算，通过DiscountStrategy接口定义折扣计算方法，CarDiscountStrategy类实现具体的折扣逻辑。
+
+#### 5.3.2 界面交互的实现
+- 主窗口使用JTable显示车辆列表
+- 租车对话框使用JTextField输入租赁天数
+- 费用详情对话框显示详细的费用计算结果
+- 所有对话框使用模态对话框，确保用户操作的顺序性
+
+#### 5.3.3 车辆状态管理
+- VehicleManager类负责管理车辆状态
+- 租车完成后，车辆状态从"可租赁"更新为"已租赁"
+- 主窗口提供刷新按钮，用于更新车辆列表显示
+
+## 6. 性能优化
+
+### 6.1 内存管理
+- 使用ArrayList存储车辆列表，提供高效的随机访问
+- 界面组件使用懒加载，减少内存占用
+
+### 6.2 界面响应速度
+- 使用Swing的事件分发线程处理界面更新
+- 避免在主线程中执行耗时操作
+
+## 7. 扩展性考虑
+
+### 7.1 功能扩展
+- 可通过实现新的DiscountStrategy子类，添加不同类型车辆的折扣策略
+- 可通过扩展Vehicle类，添加更多车辆属性
+- 可通过添加新的对话框，实现车辆添加、编辑等功能
+
+### 7.2 存储扩展
+- 可添加数据持久化层，将车辆信息存储到数据库或文件中
+- 可添加序列化功能，保存系统状态
+
+## 8. 风险分析
+
+### 8.1 潜在风险
+- 内存存储导致数据丢失
+- 缺乏并发控制可能导致车辆状态不一致
+- 界面响应时间可能受到车辆数量影响
+
+### 8.2 缓解措施
+- 定期保存数据到文件
+- 实现简单的并发控制机制
+- 优化界面渲染性能，使用分页或虚拟列表显示大量车辆
+
+## 9. 测试策略
+
+### 9.1 单元测试
+- 测试Vehicle类的属性和方法
+- 测试DiscountStrategy的折扣计算逻辑
+- 测试VehicleManager的车辆管理功能
+
+### 9.2 集成测试
+- 测试租车流程的完整执行
+- 测试界面组件的交互
+- 测试车辆状态更新的正确性
+
+## 10. 部署说明
+
+### 10.1 运行环境
+- JDK 8或更高版本
+- 支持Swing的操作系统
+
+### 10.2 构建和运行
+- 使用Maven构建项目：`mvn clean package`
+- 运行生成的jar文件：`java -jar zuche-system.jar`
+
+## 11. 附录
+
+### 11.1 代码示例
+
+#### 11.1.1 Vehicle类
+```java
+public class Vehicle {
+    private String id;
+    private String type;
+    private String model;
+    private int dailyRate;
+    private String status;
+    
+    public Vehicle(String id, String type, String model, int dailyRate, String status) {
+        this.id = id;
+        this.type = type;
+        this.model = model;
+        this.dailyRate = dailyRate;
+        this.status = status;
+    }
+    
+    // getter和setter方法
+    public String getId() { return id; }
+    public String getType() { return type; }
+    public String getModel() { return model; }
+    public int getDailyRate() { return dailyRate; }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
+}
+```
+
+#### 11.1.2 CarDiscountStrategy类
+```java
+public class CarDiscountStrategy implements DiscountStrategy {
+    @Override
+    public double getDiscountRate(int days) {
+        if (days >= 16) {
+            return 0.7;
+        } else if (days >= 8) {
+            return 0.8;
+        } else if (days >= 4) {
+            return 0.9;
+        } else {
+            return 1.0;
+        }
+    }
+}
+```
+
+#### 11.1.3 MainFrame类
+```java
+public class MainFrame extends JFrame {
+    private VehicleManager vehicleManager;
+    private JTable vehicleTable;
+    private JButton rentalButton;
+    private JButton refreshButton;
+    
+    public MainFrame() {
+        vehicleManager = new VehicleManager();
+        vehicleManager.initializeVehicles();
+        setTitle("租车管理系统");
+        setSize(800, 600);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        initComponents();
+    }
+    
+    // 其他方法
+}
+```

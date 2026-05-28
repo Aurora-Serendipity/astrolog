@@ -1,0 +1,51 @@
+[
+  {
+    "id": "V001",
+    "type": "轿车",
+    "model": "丰田凯美瑞",
+    "dailyRent": 300.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V002",
+    "type": "轿车",
+    "model": "大众帕萨特",
+    "dailyRent": 280.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V003",
+    "type": "轿车",
+    "model": "本田雅阁",
+    "dailyRent": 320.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V004",
+    "type": "客车",
+    "model": "宇通大巴",
+    "dailyRent": 800.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V005",
+    "type": "客车",
+    "model": "金龙客车",
+    "dailyRent": 750.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V006",
+    "type": "卡车",
+    "model": "东风天龙",
+    "dailyRent": 1200.0,
+    "status": "可租赁"
+  },
+  {
+    "id": "V007",
+    "type": "卡车",
+    "model": "解放J6",
+    "dailyRent": 1000.0,
+    "status": "可租赁"
+  }
+]

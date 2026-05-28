@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version)",
+      "Bash(mvn -version)",
+      "Bash(mysql --version)",
+      "Bash(curl *)",
+      "Bash(unzip -q \"/d/Program Files/apache-maven-3.9.9-bin.zip\" -d \"/d/Program Files/\")",
+      "Bash(export PATH=\"/d/Program Files/apache-maven-3.9.9/bin:$PATH\")",
+      "Bash(mvn validate *)",
+      "Bash(mvn compile *)",
+      "Bash(mvn test-compile *)",
+      "Bash(mysql *)",
+      "Bash(mvn test *)",
+      "Bash(\"D:\\\\Program Files\\\\apache-maven-3.9.9\\\\bin\\\\mvn\" clean compile -q)",
+      "Bash(\"D:\\\\Program Files\\\\apache-maven-3.9.9\\\\bin\\\\mvn\" test -q)",
+      "Bash(\"D:\\\\Program Files\\\\apache-maven-3.9.9\\\\bin\\\\mvn\" test)",
+      "Bash(mvn *)",
+      "Bash(powershell -c \"[Console]::Beep\\(800,300\\)\")",
+      "Bash(powershell *)",
+      "Bash(java -jar target/astrolog-1.0-SNAPSHOT.jar)",
+      "Bash(awk -F, 'NR>1 {lm+=$7; lc+=$8} END {printf \"Total lines: %d, Covered: %d, Coverage: %.1f%%\\\\n\", lm+lc, lc, lc/\\(lm+lc\\)*100}' target/site/jacoco/jacoco.csv)",
+      "Bash(python3 -c \"import bcrypt; print\\(bcrypt.hashpw\\(b'g2test123', bcrypt.gensalt\\(\\)\\).decode\\(\\)\\)\")",
+      "Bash(python -c \"import bcrypt; print\\(bcrypt.hashpw\\(b'g2test123', bcrypt.gensalt\\(\\)\\).decode\\(\\)\\)\")",
+      "Read(//c/Users/Aurora-Serendipity/.m2/repository/org/mindrot/jbcrypt/0.4/**)",
+      "Bash(java -cp \"target/classes;$\\(ls ~/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar\\)\" -Dfile.encoding=UTF-8 org.mindrot.jbcrypt.BCrypt g2test123)",
+      "Bash(java -cp \"target/classes;C:/Users/Aurora-Serendipity/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar\" org.mindrot.jbcrypt.BCrypt g2test123)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c \"import json; json.load\\(open\\('D:/AstroLog-Design/src/main/resources/data/messier_catalog.json','r',encoding='utf-8'\\)\\); print\\('messier OK'\\)\")",
+      "Bash(python -c \"import json; json.load\\(open\\('D:/AstroLog-Design/src/main/resources/data/constellations.json','r',encoding='utf-8'\\)\\); print\\('constellations OK'\\)\")",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(mysqladmin ping *)",
+      "Bash(python _gen_lines.py)",
+      "Bash(python -c ' *)",
+      "Bash(jar tf *)",
+      "Bash(echo \"   RESULT: $\\(mvn -q compile 2>&1)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

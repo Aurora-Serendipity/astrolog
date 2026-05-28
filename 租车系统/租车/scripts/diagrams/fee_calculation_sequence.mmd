@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant Main as 主模块
+    participant RentalCalculator as 计算模块
+    participant Factory as 折扣策略工厂
+    participant Strategy as 折扣策略
+    
+    Main->>RentalCalculator: calculateRentalFee(车型, 日租金, 天数)
+    RentalCalculator->>RentalCalculator: 计算基础费用 = 日租金 × 天数
+    RentalCalculator->>Factory: getDiscountStrategy(车型)
+    Factory-->>RentalCalculator: 返回对应策略
+    RentalCalculator->>Strategy: getDiscountRate(天数)
+    Strategy-->>RentalCalculator: 返回折扣率
+    RentalCalculator->>RentalCalculator: 计算折扣后费用 = 基础费用 × 折扣率
+    RentalCalculator->>RentalCalculator: 四舍五入得到最终费用
+    RentalCalculator-->>Main: 返回最终费用

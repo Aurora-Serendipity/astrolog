@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>租车系统图表和界面示意图</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #7f8c8d;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .chart-container {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .interface-container {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .interface-screenshot {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .mermaid {
+            text-align: center;
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #7f8c8d;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>租车系统图表和界面示意图</h1>
+
+        <!-- 流程图部分 -->
+        <h2>一、流程图</h2>
+        
+        <h3>1.1 租车流程图</h3>
+        <div class="chart-container">
+            <div class="mermaid">
+                graph TD
+                    A[主窗口] --> B[选择车辆]
+                    B --> C[点击租车按钮]
+                    C --> D[租车对话框]
+                    D --> E[输入租赁天数]
+                    E --> F[计算费用]
+                    F --> G[费用详情对话框]
+                    G --> H[确认租车]
+                    H --> I[更新车辆状态]
+                    I --> A
+                    A --> J[点击刷新列表]
+                    J --> A
+            </div>
+            <p class="description">图1.1 租车流程图</p>
+        </div>
+
+        <!-- UML图部分 -->
+        <h2>二、UML图</h2>
+        
+        <h3>2.1 系统架构图</h3>
+        <div class="chart-container">
+            <div class="mermaid">
+                graph TD
+                    A[用户界面层] --> B[业务逻辑层]
+                    B --> C[数据模型层]
+                    
+                    A1[MainFrame] --> A2[RentalDialog]
+                    A2 --> A3[FeeDetailDialog]
+                    
+                    B1[VehicleManager] --> B2[DiscountStrategy]
+                    B2 --> B3[CarDiscountStrategy]
+                    
+                    B1 --> C1[Vehicle]
+            </div>
+            <p class="description">图2.1 系统架构图</p>
+        </div>
+
+        <h3>2.2 类图</h3>
+        <div class="chart-container">
+            <div class="mermaid">
+                classDiagram
+                    class Vehicle {
+                        -String id
+                        -String type
+                        -String model
+                        -int dailyRate
+                        -String status
+                        +Vehicle(String id, String type, String model, int dailyRate, String status)
+                        +String getId()
+                        +String getType()
+                        +String getModel()
+                        +int getDailyRate()
+                        +String getStatus()
+                        +void setStatus(String status)
+                    }
+                    
+                    class VehicleManager {
+                        -List<Vehicle> vehicles
+                        +void initializeVehicles()
+                        +List<Vehicle> getVehicles()
+                        +void updateVehicleStatus(String id, String status)
+                        +Vehicle getVehicleById(String id)
+                    }
+                    
+                    class DiscountStrategy {
+                        +double getDiscountRate(int days)
+                    }
+                    
+                    class CarDiscountStrategy {
+                        +double getDiscountRate(int days)
+                    }
+                    
+                    class MainFrame {
+                        -VehicleManager vehicleManager
+                        -JTable vehicleTable
+                        -JButton rentalButton
+                        -JButton refreshButton
+                        +MainFrame()
+                        +void initComponents()
+                        +void refreshVehicleList()
+                        +void rentalVehicle()
+                    }
+                    
+                    class RentalDialog {
+                        -Vehicle vehicle
+                        -JTextField daysField
+                        -JButton confirmButton
+                        -JButton cancelButton
+                        +RentalDialog(JFrame parent, Vehicle vehicle)
+                        +void initComponents()
+                        +int calculateFee(int days)
+                        +void confirmRental()
+                    }
+                    
+                    class FeeDetailDialog {
+                        -Vehicle vehicle
+                        -int days
+                        -int totalFee
+                        -JButton confirmButton
+                        +FeeDetailDialog(JDialog parent, Vehicle vehicle, int days, int totalFee)
+                        +void initComponents()
+                        +void confirmFee()
+                    }
+                    
+                    VehicleManager --> Vehicle
+                    CarDiscountStrategy --|> DiscountStrategy
+                    MainFrame --> VehicleManager
+                    MainFrame --> RentalDialog
+                    RentalDialog --> DiscountStrategy
+                    RentalDialog --> FeeDetailDialog
+                    FeeDetailDialog --> Vehicle
+            </div>
+            <p class="description">图2.2 类图</p>
+        </div>
+
+        <h3>2.3 租车流程序列图</h3>
+        <div class="chart-container">
+            <div class="mermaid">
+                sequenceDiagram
+                    participant User as 用户
+                    participant MainFrame as 主窗口
+                    participant RentalDialog as 租车对话框
+                    participant FeeDetailDialog as 费用详情对话框
+                    participant VehicleManager as 车辆管理器
+                    participant DiscountStrategy as 折扣策略
+                    
+                    User->>MainFrame: 选择车辆并点击租车按钮
+                    MainFrame->>RentalDialog: 打开租车对话框
+                    User->>RentalDialog: 输入租赁天数
+                    RentalDialog->>DiscountStrategy: 获取折扣率
+                    DiscountStrategy-->>RentalDialog: 返回折扣率
+                    RentalDialog->>RentalDialog: 计算总费用
+                    User->>RentalDialog: 点击确认按钮
+                    RentalDialog->>FeeDetailDialog: 打开费用详情对话框
+                    User->>FeeDetailDialog: 查看费用详情
+                    User->>FeeDetailDialog: 点击确认按钮
+                    FeeDetailDialog->>VehicleManager: 更新车辆状态为已租赁
+                    VehicleManager-->>MainFrame: 车辆状态更新
+                    MainFrame->>MainFrame: 刷新车辆列表
+                    MainFrame-->>User: 显示更新后的车辆列表
+            </div>
+            <p class="description">图2.3 租车流程序列图</p>
+        </div>
+
+        <!-- 界面示意图部分 -->
+        <h2>三、界面示意图</h2>
+        
+        <h3>3.1 主窗口</h3>
+        <div class="interface-container">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Java%20Swing%20car%20rental%20system%20main%20window%20with%20vehicle%20list%20table%2C%20rental%20button%20and%20refresh%20button%2C%20clean%20UI%2C%20professional%20design&image_size=landscape_16_9" alt="主窗口" class="interface-screenshot">
+            <p class="description">图3.1 主窗口界面示意图</p>
+        </div>
+
+        <h3>3.2 租车对话框</h3>
+        <div class="interface-container">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Java%20Swing%20car%20rental%20dialog%20with%20days%20input%20field%2C%20confirm%20and%20cancel%20buttons%2C%20fee%20preview%2C%20clean%20UI%2C%20professional%20design&image_size=portrait_4_3" alt="租车对话框" class="interface-screenshot">
+            <p class="description">图3.2 租车对话框界面示意图</p>
+        </div>
+
+        <h3>3.3 费用详情对话框</h3>
+        <div class="interface-container">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Java%20Swing%20car%20rental%20fee%20detail%20dialog%20with%20vehicle%20info%2C%20rental%20days%2C%20daily%20rate%2C%20discount%20rate%2C%20total%20fee%2C%20confirm%20button%2C%20clean%20UI%2C%20professional%20design&image_size=portrait_4_3" alt="费用详情对话框" class="interface-screenshot">
+            <p class="description">图3.3 费用详情对话框界面示意图</p>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default'
+        });
+    </script>
+</body>
+</html>

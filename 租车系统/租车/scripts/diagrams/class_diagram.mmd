@@ -1,0 +1,83 @@
+classDiagram
+    class Main {
+        -Scanner scanner
+        -VehicleManager vehicleManager
+        -Vehicle selectedVehicle
+        -int rentalDays
+        +main(String[] args)
+        +showMainMenu()
+        +showRentalMenu()
+        +handleMainMenuChoice(String choice)
+        +handleRentalMenuChoice(String choice)
+        +manageVehicles()
+        +rentalProcess()
+    }
+    
+    class Vehicle {
+        -String id
+        -String type
+        -String model
+        -double dailyRent
+        -String status
+        +Vehicle(String id, String type, String model, double dailyRent, String status)
+        +getId() String
+        +getType() String
+        +getModel() String
+        +getDailyRent() double
+        +getStatus() String
+        +setId(String id)
+        +setType(String type)
+        +setModel(String model)
+        +setDailyRent(double dailyRent)
+        +setStatus(String status)
+    }
+    
+    class VehicleManager {
+        -List~Vehicle~ vehicles
+        +VehicleManager()
+        +initializeVehicles()
+        +getAvailableVehicles() List~Vehicle~
+        +getVehicleById(String vehicleId) Vehicle
+        +updateVehicleStatus(String vehicleId, String status) boolean
+        +getAllVehicles() List~Vehicle~
+    }
+    
+    class RentalCalculator {
+        +getDiscountRate(String vehicleType, int days) double
+        +calculateRentalFee(String vehicleType, double dailyRent, int days) int
+    }
+    
+    class DiscountStrategy {
+        <<interface>>
+        +getDiscountRate(int days) double
+    }
+    
+    class CarDiscountStrategy {
+        +getDiscountRate(int days) double
+    }
+    
+    class BusDiscountStrategy {
+        +getDiscountRate(int days) double
+    }
+    
+    class TruckDiscountStrategy {
+        +getDiscountRate(int days) double
+    }
+    
+    class DefaultDiscountStrategy {
+        +getDiscountRate(int days) double
+    }
+    
+    class DiscountStrategyFactory {
+        +getDiscountStrategy(String vehicleType) DiscountStrategy
+    }
+    
+    Main --> VehicleManager
+    Main --> RentalCalculator
+    VehicleManager --> Vehicle
+    RentalCalculator --> DiscountStrategyFactory
+    DiscountStrategyFactory --> DiscountStrategy
+    DiscountStrategy <|.. CarDiscountStrategy
+    DiscountStrategy <|.. BusDiscountStrategy
+    DiscountStrategy <|.. TruckDiscountStrategy
+    DiscountStrategy <|.. DefaultDiscountStrategy

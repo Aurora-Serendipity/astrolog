@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              name="AnnualReport" pageWidth="595" pageHeight="842"
+              leftMargin="40" rightMargin="40" topMargin="40" bottomMargin="40"
+              language="java">
+
+    <parameter name="USERNAME" class="java.lang.String"/>
+    <parameter name="YEAR" class="java.lang.String"/>
+    <parameter name="TOTAL_OBS" class="java.lang.Long"/>
+    <parameter name="DISTINCT_BODIES" class="java.lang.Long"/>
+    <parameter name="TOTAL_EQUIP" class="java.lang.Long"/>
+    <parameter name="GENERATED_AT" class="java.lang.String"/>
+
+    <title>
+        <band height="160">
+            <staticText>
+                <reportElement x="0" y="10" width="515" height="30"/>
+                <textElement textAlignment="Center" fontSize="22">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <text><![CDATA[AstroLog Annual Observation Report]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="50" width="515" height="20"/>
+                <textElement textAlignment="Center" fontSize="12">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <text><![CDATA[Observer: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="70" y="50" width="200" height="20"/>
+                <textElement fontSize="12">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{USERNAME}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="300" y="50" width="215" height="20"/>
+                <textElement textAlignment="Right" fontSize="12">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Generated: " + $P{GENERATED_AT}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="70" y="75" width="200" height="20"/>
+                <textElement fontSize="12">
+                    <font fontName="SansSerif"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Year: " + $P{YEAR}]]></textFieldExpression>
+            </textField>
+
+            <!-- Stats -->
+            <staticText>
+                <reportElement x="20" y="110" width="130" height="24"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Total Observations: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="155" y="110" width="80" height="24"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{TOTAL_OBS}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="240" y="110" width="130" height="24"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Distinct Bodies: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="375" y="110" width="80" height="24"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{DISTINCT_BODIES}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="20" y="135" width="130" height="20"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Equipment Used: ]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="155" y="135" width="80" height="20"/>
+                <textElement fontSize="14">
+                    <font fontName="SansSerif" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{TOTAL_EQUIP}]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+
+    <detail>
+        <band height="80">
+            <line>
+                <reportElement x="20" y="20" width="475" height="1"/>
+            </line>
+            <staticText>
+                <reportElement x="20" y="35" width="475" height="20"/>
+                <textElement textAlignment="Center" fontSize="10">
+                    <font fontName="SansSerif" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[Generated by AstroLog v1.0 - Astronomical Observation Log & Star Management]]></text>
+            </staticText>
+        </band>
+    </detail>
+
+</jasperReport>

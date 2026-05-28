@@ -1,0 +1,24 @@
+graph TB
+    subgraph 表现层
+        A[命令行界面]
+        B[用户交互]
+    end
+    
+    subgraph 业务逻辑层
+        C[主模块 Main]
+        D[车辆管理模块 VehicleManager]
+        E[费用计算模块 RentalCalculator]
+        F[折扣策略工厂 DiscountStrategyFactory]
+    end
+    
+    subgraph 数据层
+        G[内存存储 List<Vehicle>]
+    end
+    
+    A --> C
+    B --> C
+    C --> D
+    C --> E
+    E --> F
+    D --> G
+    E --> G
