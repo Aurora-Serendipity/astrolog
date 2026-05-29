@@ -36,7 +36,15 @@
       "Bash(jar tf *)",
       "Bash(echo \"   RESULT: $\\(mvn -q compile 2>&1)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "mcp__github__create_repository",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(python3 -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(python -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(git rm *)"
     ]
   }
 }

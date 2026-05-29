@@ -1,7 +1,17 @@
+# Database Configuration Example
+# Copy this file to db.properties and fill in your actual credentials
+
+# MySQL JDBC Driver
 jdbc.driver=com.mysql.cj.jdbc.Driver
+
+# Database URL
 jdbc.url=jdbc:mysql://localhost:3306/astrolog?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
-jdbc.username=root
-jdbc.password=200511abc
+
+# Database Credentials
+jdbc.username=your_username
+jdbc.password=your_password
+
+# Connection Pool
 pool.maxConnections=10
 pool.minConnections=2
 pool.initialConnections=5

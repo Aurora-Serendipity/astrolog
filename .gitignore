@@ -41,3 +41,4 @@ node_modules/
 
 # Local configs (keep db.properties.example instead)
 # src/main/resources/db.properties
+src/main/resources/db.properties
